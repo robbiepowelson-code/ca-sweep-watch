@@ -74,6 +74,7 @@
     <div class="legend">
       <div><span style="background:var(--enacted)"></span>Jurisdiction with enacted anti-camping law</div>
       <div><span style="background:var(--proposed)"></span>Proposed / pending law</div>
+      <div><span style="background:#5a6673"></span>No ordinance data collected yet</div>
       <div><span style="background:var(--sweep)"></span>Sweep / removal</div>
       <div><span style="background:var(--citation)"></span>Citation</div>
       <div><span style="background:var(--arrest)"></span>Arrest</div>
@@ -117,18 +118,24 @@ function renderLaws() {
     for (const j of LAWS.jurisdictions) {
       if (county && j.county !== county && j.name.indexOf(county) < 0) continue;
       shown++;
-      const color = j.status === 'enacted' ? '#9d5de0' : '#3dbfb0';
+      const noData = j.status === 'no_data';
+      const color = noData ? '#5a6673' :
+                    j.status === 'enacted' ? '#9d5de0' : '#3dbfb0';
       L.circleMarker([j.lat, j.lon], {
-        radius: j.type === 'county' ? 9 : 5,
+        radius: j.type === 'county' ? 9 : (noData ? 4 : 5),
         weight: j.type === 'county' ? 2 : 1,
-        color:'#0d1116', fillColor: color, fillOpacity:.75
+        color:'#0d1116', fillColor: color, fillOpacity: noData ? .5 : .75
       }).bindPopup(
         `<b>${esc(j.name)}</b> (${esc(j.type)})` +
-        (j.type === 'city' ? ` · ${esc(j.county)} County` : '') +
-        j.laws.map(l =>
-          `<div class="law"><b>${esc(l.category)}</b>` +
-          (l.cite ? ` — ${esc(l.cite)}` : '') +
-          `<br><small>${esc(l.summary)}</small></div>`).join(''),
+        (j.type === 'city' && j.county ? ` · ${esc(j.county)} County` : '') +
+        (noData
+          ? `<div class="law"><small>No ordinance data collected for this
+             jurisdiction yet — it has not been reviewed in the source dataset.
+             This does not mean no anti-camping law exists here.</small></div>`
+          : j.laws.map(l =>
+              `<div class="law"><b>${esc(l.category)}</b>` +
+              (l.cite ? ` — ${esc(l.cite)}` : '') +
+              `<br><small>${esc(l.summary)}</small></div>`).join('')),
         { maxWidth: 340 }
       ).addTo(lawLayer);
     }
@@ -165,10 +172,12 @@ function renderEvents() {
 
 function renderStats() {
   const enacted = LAWS.jurisdictions.filter(j => j.status==='enacted').length;
-  const proposed = LAWS.jurisdictions.filter(j => j.status!=='enacted').length;
+  const proposed = LAWS.jurisdictions.filter(j => j.status==='proposed' || j.status==='policy_change').length;
+  const nodata = LAWS.jurisdictions.filter(j => j.status==='no_data').length;
   stats.innerHTML =
     `<div class="stat"><span>Jurisdictions with enacted laws</span><b>${enacted}</b></div>` +
     `<div class="stat"><span>Proposed / pending only</span><b>${proposed}</b></div>` +
+    `<div class="stat"><span>Not yet reviewed</span><b>${nodata}</b></div>` +
     `<div class="stat"><span>Law dots shown</span><b id="lawCount">0</b></div>` +
     `<div class="stat"><span>Enforcement events shown</span><b id="evCount">0</b></div>`;
 }

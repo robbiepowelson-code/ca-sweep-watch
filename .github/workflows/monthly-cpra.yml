@@ -29,6 +29,9 @@ jobs:
       - name: Watch for ordinance changes (refetch source data + diff)
         working-directory: pipeline
         run: python ordinance_watch.py --refetch
+      - name: Refresh full CA jurisdiction list (Census + Wikipedia check)
+        working-directory: pipeline
+        run: python build_full_jurisdictions.py || echo "kept existing list"
       - name: Rebuild ordinance map layer
         working-directory: pipeline
         run: python build_ordinance_map.py
@@ -41,6 +44,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -f outbox site/data.json site/ordinances.json \
                      data/ordinance_snapshots data/ordinance_changes.csv \
-                     data/berkeley_appendix 2>/dev/null || true
+                     data/all_jurisdictions.csv data/berkeley_appendix 2>/dev/null || true
           git commit -m "Monthly CPRA + ordinance-watch cycle $(date +%Y-%m)" || echo "nothing to commit"
           git push
