@@ -1,0 +1,2722 @@
+{
+ "generated": "2026-07-06",
+ "source": "UC Berkeley Law HSP appendix (SSRN 5257640) + local additions",
+ "jurisdictions": [
+  {
+   "name": "Adelanto",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.58,
+   "lon": -117.41,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits sitting or lying on public ways"
+    }
+   ]
+  },
+  {
+   "name": "Albany",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.89,
+   "lon": -122.3,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 8-4.4",
+     "summary": "Section 8-4.4 of the municipal code addresses camping specifically:\n\n1. It states that \u201cit is unlawful for any person to engage in camping in any City-owned property\u201d\n2. Where camping means \u201cto set up, pitch, occupy, or leave camp facilities or use camp paraphernalia\u201d (\u00a78-4.2)\n3. HOWEVER, it \u201cwill not be enforced against indigent homeless persons sitting, lying, or sleeping on City-owned public pr"
+    }
+   ]
+  },
+  {
+   "name": "Aliso Viejo",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.57,
+   "lon": -117.73,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Nov. 2024 Unanimous vote to remove the exception in their anti-camping law (no beds needed in shelters to arrest for homelessness)"
+    }
+   ]
+  },
+  {
+   "name": "Antioch",
+   "type": "city",
+   "county": "Contra Costa",
+   "lat": 38.0,
+   "lon": -121.81,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Proposed Ordinance",
+     "cite": "Antioch, Cal., Mun. Code \u00a7 10-2.12 (1996)",
+     "summary": "Antioch has a strict anti-camping provision on the books, and the mayor announced plans to strengthen it. Antioch, Cal., Mun. Code \u00a7 10-2.12 (1996). As far as I can tell, the ordinance hasn't been changed, but it might be enforced more strictly now."
+    }
+   ]
+  },
+  {
+   "name": "Apple Valley",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.5,
+   "lon": -117.19,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits sitting or lying on public ways / camping and sleeping outdoors or in a vehicle, or park a recreational vehicle overnight in a public location. Adopted 2005"
+    }
+   ]
+  },
+  {
+   "name": "Arcadia",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.14,
+   "lon": -118.04,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "City of Arcadia website - Arcadia\u2019s anti-camping laws paused enforcement after *Martin v. Boise*, and have resumed post-Grants Pass"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Arcadia had an existing camping ordinance that was unenforceable under Martin. Per their website, they will resume enforcement."
+    }
+   ]
+  },
+  {
+   "name": "Arvin",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.21,
+   "lon": -118.83,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "8.330.030",
+     "summary": "Prohibits camping and using camp paraphernalia, which includes even \"materials intended to be used as beds or bedding.\" Storing personal property in public spaces is also prohibited, even if moved between public spaces throughout the day. This ordinance defines everything broadly, apparently to target activity of homeless population. Exception: \"Absent exigent circumstances posing an immediate thr"
+    }
+   ]
+  },
+  {
+   "name": "Atherton",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.46,
+   "lon": -122.2,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Proposed Ordinance",
+     "cite": "Municipal Code 12.16.010-",
+     "summary": "Municipal Code 12.16.010-Camping or building fires or Picnic on public street prohibited.\nAtherton\u2019s ordinance banning overnight camping in vehicles was finalized on Nov. 20 by a unanimous vote of the City Council.\nHowever, there is a proposed ordinance would permit people experiencing homelessness to be charged with a misdemeanor after receiving two written warnings and declining two offers of sh"
+    }
+   ]
+  },
+  {
+   "name": "Bakersfield",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.37,
+   "lon": -119.02,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Camping prohibited on public property. Sleeping outside on public property prohibited between sunset and sunrise. Adopted 1988."
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Municipal Code 12.56.050",
+     "summary": "Amendment to Municipal Code 12.56.050 (prohibited acts in parks) currently pending codification. Amendment replaces the following language: \"Be in or upon any park between the hours of ten p.m. and five a.m., except for participants in city-sponsored events, for which the prohibited hours shall be twelve midnight to five a.m.; provided, however, that camping and lodging overnight may be permitted "
+    }
+   ]
+  },
+  {
+   "name": "Baldwin Park",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.09,
+   "lon": -117.97,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "codes 99.01-99.04",
+     "summary": "Existing codes 99.01-99.04 banned camping, which was unenforceable until Grants Pass decision. Enforcement has likely begun again, as shown in a July 2024 internal staff memo recommending it."
+    }
+   ]
+  },
+  {
+   "name": "Banning",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.93,
+   "lon": -116.88,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Unlawful camping ordinance. Specifies that sleeping on its own does not constitute camping, but includes sleeping bags and bedrolls as \"camp paraphernalia\" such that if sleeping bags/bedrolls are used \"in such a way as will facilitate sleeping,\" it is unlawful camping. Adopted 4/23/2024 (pre-Grants Pass)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Sitting, lying, sleeping in public places is unlawful if obstructing traffic, between 6am and 10pm. Includes sleeping in vehicle parked in public. From 10pm to 6am, sleeping prohibited in public UNLESS no sleeping/shelter spaces practically available. Adopted 4/23/2024 (pre-Grants Pass)"
+    }
+   ]
+  },
+  {
+   "name": "Barstow",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.9,
+   "lon": -117.02,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits sitting or lying on public ways, adopted 1987 / prohibited camping in public park, Adpoted 2008-2010"
+    }
+   ]
+  },
+  {
+   "name": "Beaumont",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.93,
+   "lon": -116.98,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Unlawful camping/unlawful storage of personal property ordinance. Encapsulates public/private property. Includes bedrolls as \"camp paraphernalia.\" Adopted 9/3/2024 (post-Grants Pass)"
+    }
+   ]
+  },
+  {
+   "name": "Belmont",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.52,
+   "lon": -122.28,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Sec. 16-29",
+     "summary": "Belmont City Code Sec. 16-29. limits on special activities like overnight camping except at locations specifically designated for such activities."
+    }
+   ]
+  },
+  {
+   "name": "Berkeley",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.87,
+   "lon": -122.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Anecdote/Interview",
+     "cite": "",
+     "summary": "On Sept. 10, 2024, City Council approved legislation that broadened the city\u2019s authority to sweep camps even when shelter isn\u2019t available.\n\n1. The resolution said that the city wouldn\u2019t sweep encampments unless it was able to offer shelter to displaced people, but it also outlined several exceptions including encampments that posed a health or safety hazard.\n2. Also on Sept. 10, 2024, nine busines"
+    }
+   ]
+  },
+  {
+   "name": "Big Bear Lake",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.24,
+   "lon": -116.91,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibited caamping and loitering, storage personal property, adopted in 2019. Penalty"
+    }
+   ]
+  },
+  {
+   "name": "Brisbane",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.68,
+   "lon": -122.4,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "12, 2024In Brisbane from Nov, it is illegal to camp overnight in a vehicle on a road or road related area (e.g. footpath, dividing strip or public cycle paths) unless it is in a designated signed area or tourist accommodation area.\nCouncil may issue you with a fine if you camp in your vehicle overnight on a road or park in Brisbane.\nSleeping in a vehicle is not prohibited when:\nit is required for "
+    }
+   ]
+  },
+  {
+   "name": "Broadmoor",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.69,
+   "lon": -122.48,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "No local ordinance found. Refer to the county ordinance."
+    }
+   ]
+  },
+  {
+   "name": "Burlingame",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.58,
+   "lon": -122.35,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7 13.32.190(",
+     "summary": "In Code of Ordinance\u00a7 13.32.190(Ord. 1259 \u00a7 2, (1983)), no person shall use any trailer, semitrailer, camper, camp trailer, house car, trailer coach, mobile home or any other vehicle for the purpose of sleeping or living quarters whether on public or private property.\nIn Burlingame State Park, visitors must leave by 10 PM.\nOnly one family is allowed per campsite.\nNon-family groups are limited to s"
+    }
+   ]
+  },
+  {
+   "name": "California City",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.13,
+   "lon": -117.99,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Permit required to camp in public parks."
+    }
+   ]
+  },
+  {
+   "name": "Calimesa",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.99,
+   "lon": -117.06,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Two proposed ordinances related to homelessness in November 2024 city council meeting agenda. Agenda explicitly references Grants Pass decision as motivation to prepare ordinances \"specifically related to homelessness.\" One prohibits unlawful camping/using camp paraphernalia on public property, obstructing right of ways, sitting and lying on public benches, & public urination/defecation; the other"
+    }
+   ]
+  },
+  {
+   "name": "Canyon Lake",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.69,
+   "lon": -117.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Sitting, lying, sleeping, or storing property in public right of way prohibited. Adopted 10/6/2021."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Camping prohibited on public/private property, including sleeping in a vehicle. Adopted 7/10/2013."
+    }
+   ]
+  },
+  {
+   "name": "Carlsbad",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 33.16,
+   "lon": -117.35,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Aug. 2024\nCity of Carlsbad accepted $5.3 mil from Encampment Resolution Funding Program to \"address\" State Route 78 encampments."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Aug. 2024\nCity of Carlsbad accepted $5.3 mil from Encampment Resolution Funding Program to \"address\" State Route 78 encampments."
+    }
+   ]
+  },
+  {
+   "name": "Carpinteria",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.4,
+   "lon": -119.52,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 8.20",
+     "summary": "Chapter 8.20 of the Carpinteria Municipal Code covers Sleeping and Camping. Although it does not specifiy what properties are designated for overnight camping, the municipal code does allow for overnight camping in those places. Otherwise, camping is not permitted and a violation is a misdemeanor or an infraction. Violators receive a warning prior to citation and are referred to services for perso"
+    }
+   ]
+  },
+  {
+   "name": "Cathedral City",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.78,
+   "lon": -116.47,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits sleeping vehicles parked in public places. Adopted in 1982."
+    }
+   ]
+  },
+  {
+   "name": "Ceres",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.59,
+   "lon": -120.96,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Municipal Code \u00a718.28.120",
+     "summary": "Ceres Municipal Code \u00a718.28.120(1-25-2021):Camping is prohibited in most public and private areas within residential, commercial, and industrial zones.\nLimited exceptions allow camping in designated campgrounds, permitted events, and certain residential RV situations.\nViolators receive an 8-hour warning before enforcement.\nMultiple violations lead to misdemeanor charges  and punishable by a fine o"
+    }
+   ]
+  },
+  {
+   "name": "Chino Hills",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 33.99,
+   "lon": -117.75,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping in city owned space / Enforcement"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "[Chino]"
+    }
+   ]
+  },
+  {
+   "name": "Chula Vista",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.64,
+   "lon": -117.08,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chula Vista, Cal., Code \u00a7 9.90.020 (2024)",
+     "summary": "Definitions\n\"'Campsite' means any place where\n(1) bedding, sleeping bag, or other material used for bedding purposes,\n(2) or any stove or fire is placed, established, or maintained for the purpose of maintaining a temporary or permanent place to live, whether or not such place incorporates the use of any tent, lean-to, shack or any other structure.\"\n Chula Vista, Cal., Code \u00a7 9.90.020 (2024)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Chula Vista, Cal., Code \u00a7 9.90.030 (2024)",
+     "summary": "Prohibited Conduct\nProhibits Sitting, Lying, Sleeping, or Storage on a street, sidewalk, or public property \"in a manner that impedes passage, as provided by the ADA.\"\nChula Vista, Cal., Code \u00a7 9.90.030 (2024)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Chula Vista, Cal., Code \u00a7 9.90.040 (2024)",
+     "summary": "Prohibited Conduct\nCannot camp\n(1) w/in 1000 ft of a school,\n(2) in or w/in 1000 ft of a city park,\n(3) wildlife conservation areas,\n(4) \"Major Transit Stops,\" lists 3 trolley stops and 225 bus stops,\n(5) w/in 1000 ft of a shelter/safe camping/safe parking site.\nChula Vista, Cal., Code \u00a7 9.90.040 (2024)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Enforcement\n(1) police may remove personal property; (2) camping is a public nuisance; (3) violation may be charged as misdemeanor or infraction."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "9.90.030",
+     "summary": "Notice Requirements\n(1) At least 3 hrs written notice before violating 9.90.030; At least 24 hrs written notice before removal of property\n(2) If City Manager/Police Department finds it \"reasonably necessary to remove [a] immediate threat,\" or if SDC directs city to remove property for public health and safety, may remove property w/out any notice.\nChula Vista, Cal., Code \u00a7 9.90.050 (2024)."
+    }
+   ]
+  },
+  {
+   "name": "Clovis",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.83,
+   "lon": -119.7,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 5.27.510",
+     "summary": "1. Sleeping and camping in public and certain private places is prohibited.\n2. Camping includes use of tents/temporary shelters, use of sleeping bags/beds/hammocks, use of park benches/similar structures, and use of any parked vehicles.\n3. It\u2019s not a violation to sleep in a public park between 7am-10pm, or from 10pm-7am in a designated overnight camp area.\n4. It is not considered recreational camp"
+    }
+   ]
+  },
+  {
+   "name": "Coachella",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.68,
+   "lon": -116.17,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags. Adopted 2/10/2016."
+    }
+   ]
+  },
+  {
+   "name": "Coalinga",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.14,
+   "lon": -120.36,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Sec. 10-1.12",
+     "summary": "Sec. 10-1.12. - Overnight camping.\n(a)No person shall camp, lodge, sleep or tarry overnight in any park or recreation area.(b)No person shall set up tents, shacks, or any other temporary shelter for the purpose of camping in any park or recreational area.(c)No person shall leave in a park or recreation area any moveable structure or special vehicle to be used or that could be used for camping, suc"
+    }
+   ]
+  },
+  {
+   "name": "Colma",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.68,
+   "lon": -122.46,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Colma is planing a project named HOPE (Housing Our People Effectively),a ten-year action plan initiated by San Mateo County that brings together the business, nonprofit, and public sector communities to address the challenging issue of homelessness.The plan will increasing the supply of permanent affordable and supportive housing for people who are homeless and developing strategies to help them m"
+    }
+   ]
+  },
+  {
+   "name": "Colton",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.07,
+   "lon": -117.31,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping or store personal property on public property / Enforcement. Adopted in 2011"
+    }
+   ]
+  },
+  {
+   "name": "Corona",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.88,
+   "lon": -117.57,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7 9.26.020.)",
+     "summary": "Camping and storage of personal property prohibited on public property. (`78 Code, \u00a7 9.26.020.) (Ord. 3160 \u00a7 4, 2013; Ord. 2833 \u00a7 3 (part), 2006; Ord. 2619 \u00a7 1, 2002: Ord. 2256 \u00a7 1, 1995.)"
+    }
+   ]
+  },
+  {
+   "name": "Coronado",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.69,
+   "lon": -117.18,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Coronado, Cal., Code \u00a7 40.48.010 (2015)",
+     "summary": "Prohibited Conduct\n(1) No camping/sleeping in public parks/beaches 11:00pm-5:00am.\n(2) No campling/sleeping on any public street\n(3) No loitering on public streets 11:00pm-5:00am.\nCoronado, Cal., Code \u00a7 40.48.010 (2015)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Coronado, Cal., Code \u00a7 40.48.012 (2015)",
+     "summary": "Prohibited Conduct\n(1) No tents/canopies/barricades in public parks/beaches 11pm-5am\n(2) Can't leave tents/canopies/barricades unattended 5am-11pm\nCoronado, Cal., Code \u00a7 40.48.012 (2015)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Coronado, Cal., Code \u00a7 40.48.040",
+     "summary": "Prohibited Conduct\nCan't stand/sit on street/median/sidewalk in a manner that obstructs passage or to \"hinder/molest/annoy\" passerbys\nCoronado, Cal., Code \u00a7 40.48.040."
+    }
+   ]
+  },
+  {
+   "name": "Cypress",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.82,
+   "lon": -118.04,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "3/11/2024 (pre-GP) there was a hearing to adjust their park rules, no overnight camping in parks"
+    }
+   ]
+  },
+  {
+   "name": "Daly City",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.69,
+   "lon": -122.47,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a710.76.020",
+     "summary": "\u00a710.76.020 It is prohibited to use or occupy any vehicle, camper, mobile home, RV, or similar conveyance for human habitation on public property (such as streets, alleys, parks, beaches, or squares) between 10:00 p.m. and 6:00 a.m.\nException: Only allowed in areas officially designated by the city for such purposes.Violating this ordinance is considered an infraction and subject to fines:\nFirst vi"
+    }
+   ]
+  },
+  {
+   "name": "Del Mar",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.96,
+   "lon": -117.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Del Mar, Cal., Code \u00a7 9.04.020",
+     "summary": "Prohibited Conduct\n(1) No camping overnight.\n(2) Camping evidenced by bedrolls and tents\nDel Mar, Cal., Code \u00a7 9.04.020."
+    }
+   ]
+  },
+  {
+   "name": "Delano",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.77,
+   "lon": -119.25,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Ordinance proposed in December 2024 (post-Grants Pass) city council meeting to prohibit camping in public parks and also create a new chapter prohibiting camping on public property \"to model Grants Pass's camping prohibitions.\" Mayor and councilmembers separately expressed concerns about homeless individuals' presence interfering with local businesses."
+    }
+   ]
+  },
+  {
+   "name": "Desert Hot Springs",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.96,
+   "lon": -116.5,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Unlawful to camp or use camp paraphernalia (including sleeping bags) on any street, public parking lot, or private property, and to store personal property in any park, street, public property, or private property without owner/tenant consent. Adopted 12/3/2019."
+    }
+   ]
+  },
+  {
+   "name": "Dublin",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.7,
+   "lon": -121.94,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 5.100.110",
+     "summary": "Section 5.100.110 identifies pohibited acts/activities in parks. It states that \"unless expressly authorized by the Director, no person while in any park shall: . . . E. Camp, lodge or remain overnight . . .\""
+    }
+   ]
+  },
+  {
+   "name": "Eastvale",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.96,
+   "lon": -117.56,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Adopted 9/5/2024 (post-Grants Pass)"
+    }
+   ]
+  },
+  {
+   "name": "El Cajon",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.79,
+   "lon": -116.96,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "El Cajon, Cal. Code \u00a7 2.56.010",
+     "summary": "Definitions\n(1) Camping in parks = living/spending inordinary amount of time in a park with \"camp paraphenelia\"\n(2) Camp paraphenelia \"includ[es], but [is] not limited to, clothing, sleeping bags, bedrolls, blankets, sheets, luggage, backpacks, kitchen utensils, cookware, and similar material\"\nEl Cajon, Cal. Code \u00a7 2.56.010."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "El Cajon, Cal. Code \u00a7\u00a7 9.36.020, 9.36.025",
+     "summary": "Prohibited Conduct\nProhibits sleeping or camping on city property\nEl Cajon, Cal. Code \u00a7\u00a7 9.36.020, 9.36.025."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "El Cajon, Cal. Code \u00a7 12.08.010-20",
+     "summary": "Prohibited Conduct\n(1) Cannot occupy public street/sidewalk/alley for any purpose besides normal pedestrian traffic.\n(2) May not loiter in a manner that \"maliciously obstruct[s] or interfere[s] with free passage.\"\nEl Cajon, Cal. Code \u00a7 12.08.010-20."
+    }
+   ]
+  },
+  {
+   "name": "El Segundo",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.92,
+   "lon": -118.42,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "9/17/24 - El Segundo City Council amended the municipal code with new camping ordinances. Encampments on public property will be given 24 hour clearance notices. PATCHES team offers outreach."
+    }
+   ]
+  },
+  {
+   "name": "Elk Grove",
+   "type": "city",
+   "county": "Sacramento",
+   "lat": 38.41,
+   "lon": -121.37,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Ordinance No. 12-2024: an ordinance of the city council of the city of Elk Grove amending chapter 9.38 of the Elk Grove Municipal Code related to unlawful camping. Elk Grove City Council unanimously passed an amendment to a city ordinance Wednesday that shortens the window of notice city officials must give to those at homeless encampments, or unlawfully camping in the city, to 24 hours before tem"
+    }
+   ]
+  },
+  {
+   "name": "Encinitas",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 33.04,
+   "lon": -117.29,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Introduced Feb. 2025\nProposes collaboration between CA DOT and local gov'ts to clear existing homeless encampments on DOT property and prevent new encampments from forming.\nS.B. 569"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Encinitas, Cal. Code \u00a7 9.01.020 (2004)",
+     "summary": "Prohibited Conduct\n(1) No camping on public property\nEncinitas, Cal. Code \u00a7 9.01.020 (2004)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Encinitas, Cal. Code \u00a7 9.01.020 (2004)",
+     "summary": "Definitions\n\"'Camping' is evidenced by, among other things, the establishment of sleeping accommodations; the use of a bedroll or sleeping bag; the erection or maintenance of a shelter\"\nEncinitas, Cal. Code \u00a7 9.01.020 (2004)."
+    }
+   ]
+  },
+  {
+   "name": "Escondido",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 33.12,
+   "lon": -117.09,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Escondido, Cal. Code \u00a7 17-7",
+     "summary": "Definitions\nCamping = \"remaining for prolonged or repetitious periods of time not associated with ordinary recreational use of a park with one's personal property (including, but not limited to, clothing, sleeping bags, bedrolls, blankets, sheets, tents, tarpaulins, luggage, backpacks, kitchen utensils, cookware, and similar material), sleeping or making preparations to sleep, regularly cooking or"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Escondido, Cal. Code \u00a7 17-8.4 (2024)",
+     "summary": "Prohibited Conduct\nNo camping\n(1) where there's an \"unreasonable risk of harm\" to people/public health/public safety or a disruption of vital gov't services\n(2) w/in 500 ft of a school zone\n(3) w/in 500 ft of a shelter if there's visible signage\n(4) In any \"open space, waterway, or bank of a waterway.\"\n(5) in transit hubs(7) any park or open space where city manager considered camping to pose a su"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Escondido, Cal. Code \u00a7 17-8.5 (2024)",
+     "summary": "Enforcement\n(1) Violation is a misdemeanor offense\n(2) Subject to removal after 24 hr. written notice/expedited abatement\nEscondido, Cal. Code \u00a7 17-8.5 (2024)."
+    }
+   ]
+  },
+  {
+   "name": "Fairfield",
+   "type": "city",
+   "county": "Solano",
+   "lat": 38.25,
+   "lon": -122.04,
+   "status": "policy_change",
+   "laws": [
+    {
+     "category": "Policy Change",
+     "cite": "",
+     "summary": "Anti-camping ordinances penalty voted just this week to change from infraction to misdo."
+    }
+   ]
+  },
+  {
+   "name": "Firebaugh",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.86,
+   "lon": -120.46,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 9-1.2",
+     "summary": "It shall be unlawful for any person to inhabit any trailer coach standing or parked in or upon any lot or area of land within the City of Firebaugh, or upon any street, alleyway, or place therein and it shall be unlawful for any person to inhabit any tent, hut, or motor home, or to camp on the ground within any such areas in the City of Firebaugh except in a legally constituted and licensed traile"
+    }
+   ]
+  },
+  {
+   "name": "Folsom",
+   "type": "city",
+   "county": "Sacramento",
+   "lat": 38.68,
+   "lon": -121.18,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Chapter 9.100",
+     "summary": "The Folsom Police Department started its homeless outreach team (HOT), which will ban unlawful camping on public property, authorities said. Planning to enforce the unlawful camping ordinance, outlined in the Folsom Municipal Code (Chapter 9.100 CAMPING)."
+    }
+   ]
+  },
+  {
+   "name": "Fontana",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.09,
+   "lon": -117.44,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits lingering, loitering, sitting, or standing on commercial or private property(Ch 12.26.)\nProhibits standing or sitting in roadway(Sec 17-228)"
+    }
+   ]
+  },
+  {
+   "name": "Foster City",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.56,
+   "lon": -122.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "No local ordinance found. Refer to the county ordinance.\nFoster City has resources for people experiencing homelessness, including housing and support services."
+    }
+   ]
+  },
+  {
+   "name": "Fowler",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.63,
+   "lon": -119.68,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 5.21.510",
+     "summary": "1. Sleeping and camping in public and certain private places is prohibited.\n2. Camping includes use of tents/temporary shelters, use of sleeping bags/beds/hammocks, use of park benches/similar structures, and use of any parked vehicles.\n3. It\u2019s not a violation to sleep in a public park between 7am-10pm, or from 10pm-7am in a designated overnight camp area.\n4. It is not considered recreational camp"
+    }
+   ]
+  },
+  {
+   "name": "Fremont",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.55,
+   "lon": -121.99,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "In February 2025, Fremont City Council gave final approval to an ordinance that bans camping throughout the entire city, while also making anyone \"aiding, abetting or concelaing\" a homeless encampment guilty of a misdemeanor. On March 4, they voted to remove the aiding and abetting clause after pushback from the community."
+    }
+   ]
+  },
+  {
+   "name": "Fresno",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.74,
+   "lon": -119.79,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Fresno County (in its entirety) will be one of the first local jurisdictions in the country to implement anti-encampment ordinances.\n\n1. On Aug. 20, 2024 the Fresno County Board of Supervisors passed an anti-encampment ordinance, with enforcement set to begin within the next month.\n2. Ordinance violators expect to face criminal penalties including fines and jail time."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Fresno's law, passed Aug. 15, 2024, is among the toughest in the state: banning camping, sitting or lying on public property anytime, anywhere."
+    }
+   ]
+  },
+  {
+   "name": "Fullerton",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.87,
+   "lon": -117.93,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "March 2025 Further tightening on anti-camping laws, criminalizing of homeless people"
+    }
+   ]
+  },
+  {
+   "name": "Garden Grove",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.77,
+   "lon": -117.94,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Approved Nov. 2024, \"prohibits camping, sleeping, storing personal property on public places, or interfering with public access to public places\""
+    }
+   ]
+  },
+  {
+   "name": "Glendale",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.14,
+   "lon": -118.25,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "9.28.010-9.28.040",
+     "summary": "Existing ordinance 9.28.010-9.28.040 prohibited camping. Glendale city council voted to resume enforcement."
+    }
+   ]
+  },
+  {
+   "name": "Goleta",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.44,
+   "lon": -119.83,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Municipal Code \u00a710.04.040",
+     "summary": "Municipal Code \u00a710.04.040 Sleeping, Camping, Use of a Recreational Vehicle for Occupancy on Any Public Street, Highway, Right-of-War or Any Public Property Within the City\u2014Prohibited. Does not allow any overnight parking or camping in a trailer."
+    }
+   ]
+  },
+  {
+   "name": "Grand Terrace",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.03,
+   "lon": -117.31,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits loitering. adopted 1988"
+    }
+   ]
+  },
+  {
+   "name": "Hayward",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.67,
+   "lon": -122.08,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 4-17.20)",
+     "summary": "Article 17 of Hayward's municipal code addresses camping and storage of personal property:\n\n1. It\u2019s unlawful to camp, occupy camp facilities or use camp paraphernalia on any City-owned property. (Section 4-17.20)\n2. It\u2019s unlawful to store personal property, including camp facilities and camp paraphernalia on any City-owned property. (Section 4-17.25)\n3. A violation is declared a public nuisance wh"
+    }
+   ]
+  },
+  {
+   "name": "Hemet",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.75,
+   "lon": -116.97,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Under \"disorderly conduct,\" prohibits obstructing public property by sitting/lying/storing personal property (adopted 1/11/2022), eating/resting as well as sleeping in a vehicle (adopted 7/8/2003), and camping on private property (adopted 1/11/2022)"
+    }
+   ]
+  },
+  {
+   "name": "Hermosa Beach",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.86,
+   "lon": -118.4,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "10/31/24 Press release said that anti-camping ordinances will be enforced post Grants Pass. Language: \"Enforcing Public Camping & Loitering Regulations: In line with the recent Supreme Court Grants Pass decision, local laws prohibit camping or sleeping in vehicles on public streets and overnight camping on the beach. Hermosa Beach also enforces laws that prevent loitering in public spaces that obs"
+    }
+   ]
+  },
+  {
+   "name": "Huntington Beach",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.66,
+   "lon": -118.0,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Seems like the anti-homelessness laws have been strict and unchanged since 2022"
+    }
+   ]
+  },
+  {
+   "name": "Huron",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.2,
+   "lon": -120.1,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "9.12.130",
+     "summary": "9.12.130 - Tents prohibited.\nNo tents may be erected or occupied in the City for the purposes of living or sleeping, except in a campground established for such purpose. All buildings used for living or sleeping purposes shall be erected in accordance with the City Building Code and the State Housing Act.\n(Ord. 220 \u00a7 1, 1986)"
+    }
+   ]
+  },
+  {
+   "name": "Imperial Beach",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.58,
+   "lon": -117.11,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Imperial Beach, Cal. Code \u00a7 12.5",
+     "summary": "Prohibited Conduct\n(1) Prohibits camping, lodging, or sleeping on or w/in any public property.\n(2) Prohibits storage of personal items on public proeprty\nImperial Beach, Cal. Code \u00a7 12.5."
+    }
+   ]
+  },
+  {
+   "name": "Indian Wells",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.72,
+   "lon": -116.34,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Adopted 2012."
+    }
+   ]
+  },
+  {
+   "name": "Indio",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.72,
+   "lon": -116.22,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping and storing personal property in public spaces. Camping explicitly includes sleeping \"for living accommodation purposes\" and occurs whether or not a full night is spent. Amended 8/21/2024 (post-Grants Pass). Staff report discussing amendment references Grants Pass decision as motivation for amendment."
+    }
+   ]
+  },
+  {
+   "name": "Irvine",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.68,
+   "lon": -117.83,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Nov 2024 Irvine has no homeless shelter, but ability clear out homeless shelters with only 24 hours notice,"
+    }
+   ]
+  },
+  {
+   "name": "Irwindale",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.11,
+   "lon": -117.93,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "2024 election - Irwindale passed a measure for a slight sales tax increase to fund, among many other things, \"cleaning up homeless encampments.\""
+    }
+   ]
+  },
+  {
+   "name": "Jurupa Valley",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 34.0,
+   "lon": -117.47,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Adopted 9/5/2024 (post-Grants Pass). Exception for \"emergency public health and safety activities.\""
+    }
+   ]
+  },
+  {
+   "name": "Kingsburg",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.51,
+   "lon": -119.55,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "As of Nov. 6, 2024, Kingsburg adopted an ordinance making it unlawful to camp on public and private property and obstruct public rights of way."
+    }
+   ]
+  },
+  {
+   "name": "La Mesa",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.77,
+   "lon": -117.02,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Jan. 2025\nLa Mesa Councilmember calls for policy of removing a homeless person from the city if help is turned down 15 times. No bill."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "La Mesa, Cal. Code \u00a7\u00a7 10.52.020, 10.52.030",
+     "summary": "Definitions\n(1) Camping is not limited to tents and can be anywhere where bedding is placed\n(2) No person shall camp in or upon any city sidewalk, street, alley, lane, park, public right-of-way or any other place to which the general public has access, or under any bridgeway or viaduct\nLa Mesa, Cal. Code \u00a7\u00a7 10.52.020, 10.52.030"
+    }
+   ]
+  },
+  {
+   "name": "La Quinta",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.66,
+   "lon": -116.31,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7 8, 2018",
+     "summary": "Camping/remaining overnight prohibited in public parks and recreation areas. One of many provisions under \"prohibited conduct\" in parks/rec section. No specific language appearing to target homeless population. (Ord. 568 \u00a7 8, 2018; Ord. 510 \u00a7 1, 2013; Ord. 360 \u00a7 1, 2001; Ord. 10 \u00a7 1, 1982)"
+    }
+   ]
+  },
+  {
+   "name": "Lake Elsinore",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.67,
+   "lon": -117.33,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "No comprehensive unlawful camping ordinance, but three separate ordinances that are relevant. One prohibits camping on private property without owner's consent (adopted 2015), one prohibits camping on public parks and beaches (adopted 2016), and one declares shopping carts a public nuisance (adopted 2016)."
+    }
+   ]
+  },
+  {
+   "name": "Lemon Grove",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.74,
+   "lon": -117.03,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Lemon Grove, Cal. Code \u00a7\u00a7 9.36.090",
+     "summary": "Prohibited Conduct\nProhibits camping or storage of property in any public place or street\nLemon Grove, Cal. Code \u00a7\u00a7 9.36.090."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Lemon Grove, Cal. Code \u00a7 9.36.100",
+     "summary": "Enforcement\nViolation = misdemeanor + fine < $500 or prison < 6 mo.\nLemon Grove, Cal. Code \u00a7 9.36.100."
+    }
+   ]
+  },
+  {
+   "name": "Livermore",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.68,
+   "lon": -121.77,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 12.65",
+     "summary": "Chapter 12.65 of the municipal code addresses camping. In livermore it's unlawful and a public nuisance to camp, establish/maintain/operate/occupy camping facilities, or use camp paraphernalia on any public property or any private proeprty where the public has right of access. It's simiarly unlawful to store camp paraphernalia on public property. aA violation is punishable by a fine up to $100 for"
+    }
+   ]
+  },
+  {
+   "name": "Lodi",
+   "type": "city",
+   "county": "San Joaquin",
+   "lat": 38.13,
+   "lon": -121.27,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Municipal code 8.04",
+     "summary": "Municipal code 8.04 - camping ordinance introduced post-Grants Pass. I don't think it's passed yet. Current camping ordinance is about needing a permit to erect a tent, the new proposal is standard, but not super expansive (includes mattresses, but not sleeping bags/pillows)."
+    }
+   ]
+  },
+  {
+   "name": "Lompoc",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.64,
+   "lon": -120.46,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Past but very recent. Ordinance was passed on March 4, 2025. City Council banned personal belongins or camping on public property. New ordinances will prohibit camping on any public or private property with the exceptions of campgrounds and the permission of the private property owner; prohibit storing personal property in a way that obstructs doorways, sidewalsk, or other areas public property; p"
+    }
+   ]
+  },
+  {
+   "name": "Long Beach",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.77,
+   "lon": -118.19,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Long Beach PD now has discretion to enforce existing anti-camping ordinance. Internal memo primarily discusses citations, but also arrests, especially following repeated complaints or \"related criminal conduct.\" Long Beach has been conducting widespread sweeps."
+    }
+   ]
+  },
+  {
+   "name": "Los Angeles",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.05,
+   "lon": -118.24,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The City of LA has been resisting Newsom's encampment clearance policies, however already had an anti-camping ordinance on the books, pre-Boise. Reporting on that ordinance says that it cost $3 million and permanently housed two people."
+    }
+   ]
+  },
+  {
+   "name": "Malibu",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.03,
+   "lon": -118.78,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "8.36.050",
+     "summary": "Per Malibu city website - said that Grants Pass won't change much, but did specify 72-hour notices to vacate encampments on public property, when they violate 8.36.050. Will cite unhoused people with \"cite and release\" system."
+    }
+   ]
+  },
+  {
+   "name": "Manhattan Beach",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.88,
+   "lon": -118.41,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Manhattan Beach's camping provision (4.140), enacted shortly before Boise, and includes pillows and sleeping materials, and personal property, is now being enforced."
+    }
+   ]
+  },
+  {
+   "name": "McFarland",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.68,
+   "lon": -119.23,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "McFarland has a whole chapter of the code that seems to categorically target its homeless population. Includes general camping/using camp paraphernalia including sleeping bags prohibition and also prohibits storing personal property, using tents, making fires, bathing or using park water sources to bathe. Adopted 7/25/2024 (post-Grants Pass)"
+    }
+   ]
+  },
+  {
+   "name": "Mendota",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.75,
+   "lon": -120.38,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "12.12.020",
+     "summary": "12.12.020 - Prohibited act\u2014Camping or occupation of temporary structure.\nIt is unlawful for any person to camp or live on any lot or area of land within the city other than in a permanently constructed building with toilet and other facilities required by this code. This provision is intended to prevent persons from sleeping or camping, whether in tents or otherwise, in or upon open areas, such as"
+    }
+   ]
+  },
+  {
+   "name": "Menifee",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.68,
+   "lon": -117.17,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7 11.21.030(",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Sets out procedure to refer homeless people sitting/lying/sleeping on public property when no shelter is available to \"Outreach & Engagement Personnel\" before arresting or citing them. BUT states that \"These procedures under \u00a7 11.21.030(B)(2) are only manda"
+    }
+   ]
+  },
+  {
+   "name": "Modesto",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.64,
+   "lon": -120.99,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Modesto\u2019s Camping and Storage Ordinance (Article 7 effective 7-12-12)\uff1a\nCamping and storage of personal items on public or private property are prohibited unless explicitly allowed.\nTemporary camping is permitted on private property for up to 5 nights with consent.\nSpecial event camping permits can be issued at the City Manager\u2019s discretion.\nViolations are misdemeanors and can result in legal or ad"
+    }
+   ]
+  },
+  {
+   "name": "Monterey",
+   "type": "city",
+   "county": "Monterey",
+   "lat": 36.6,
+   "lon": -121.89,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Proposed Ordinance",
+     "cite": "Chapter 22",
+     "summary": "The \"Homeless Response\" page of City of Monterey accessed on February 23, 2025 listed related City Codes, which addresses various regulations concerning motor vehicles, public conduct, parks, streets, and sidewalks to maintain community safety and order.\nChapter 22 outlines general offenses, including prohibitions against trespassing on private property (22-25.5 MCC), which requires clear signage "
+    }
+   ]
+  },
+  {
+   "name": "Moreno Valley",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.94,
+   "lon": -117.23,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property on public streets, sidewalks, right-of-ways, parks, and any other improved or unimproved public land. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Adopted 2004."
+    }
+   ]
+  },
+  {
+   "name": "National City",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.68,
+   "lon": -117.1,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "National City, Cal. Code \u00a7 10.55.020 (2024)",
+     "summary": "Definitions\nHas adopted San Diego City's code.\nNational City, Cal. Code \u00a7 10.55.020 (2024)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "National City, Cal. Code \u00a7 10.55.040 (2024)",
+     "summary": "Prohibited Conduct\nHas adopted San Diego City's code.\nNational City, Cal. Code \u00a7 10.55.040 (2024)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "National City, Cal. Code \u00a7\u00a7 10.55.050, 10.55.060 (2024)",
+     "summary": "Enforcement\nHas adopted San Diego City's code.\nNational City, Cal. Code \u00a7\u00a7 10.55.050, 10.55.060 (2024)."
+    }
+   ]
+  },
+  {
+   "name": "Newark",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.53,
+   "lon": -122.04,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 7.04.030",
+     "summary": "Section 7.04.030 talks about how unoccupied swellings are attractive for \"unlawful camping and occuptation\" but doesn't seem to clearly discuss unlawfulcamping elsewhere in the municipal code."
+    }
+   ]
+  },
+  {
+   "name": "Newman",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.31,
+   "lon": -121.02,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "(Passed December 10, 2024.)Camping is prohibited on public and private property, except in limited situations.\nStorage of camping-related items is also banned.\nProviding aid to unlawful campers is restricted.\nTemporary camping permits are available for special events.\nViolations are misdemeanors but may be dismissed if no alternative shelter was available."
+    }
+   ]
+  },
+  {
+   "name": "Newport Beach",
+   "type": "city",
+   "county": "Orange",
+   "lat": 33.62,
+   "lon": -117.93,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Aug. 2024 Greater prohibitions on sleeping in public places, setting up camps, and leaving property unattended"
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Passed Aug. 2024 further restricting camping"
+    }
+   ]
+  },
+  {
+   "name": "Norco",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.93,
+   "lon": -117.55,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "\"Camp space and squatter camps\" ordinance prohibitng camping on public/private property unless a number of sanitation requirements are met. Camping defined differently than in many other codes: \"'Camp space' is any place where one or more tents are erected or maintained for hire for living or sleeping quarters for one or more families, or where one or more tents or camp cars or trailers or where o"
+    }
+   ]
+  },
+  {
+   "name": "Oakdale",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.77,
+   "lon": -120.85,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Article XII: Camping is prohibited in public spaces and private property without consent, except for limited exemptions.\nSpecial event camping requires a permit, subject to health and safety review.\nIllegal camping and personal property storage are misdemeanors and can be enforced as public nuisances."
+    }
+   ]
+  },
+  {
+   "name": "Oakland",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.8,
+   "lon": -122.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Anecdote/Interview, Past Ordinance",
+     "cite": "",
+     "summary": "On Sept. 24, 2024, Oakland\u2019s mayor gave an executive order to city departments to fully remove people living in homeless encampments, enforcing the Encampment Management Policy. The EMP was passed in 2020, prohibiting encampment within a certain number of feet of schools, parks, playgrounds, bodies of water and retail businesses. It also prohibits most of the cooking and heating equiment used by p"
+    }
+   ]
+  },
+  {
+   "name": "Oceanside",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 33.2,
+   "lon": -117.38,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Oceanside, Cal. Code \u00a7 20.21.1(b) (2024)",
+     "summary": "Definitions\n(1) Camping = \"to pitch or occupy camp facilities, or to use camp paraphernalia, for living purposes in an outdoor area.\" NOT sleeping alone\n(2) Camp facilities = tents/huts/shacks/other temp.shelters\n(3) Camp paraphernalia = but is not limited to, tents or tent-like structures, cots, beds, hammocks or personal cooking facilities and similar equipment. NOT blankets/sleeping bags/bedrol"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Oceanside, Cal. Code \u00a7 20.21.1(c) (2024)",
+     "summary": "Prohibited Conduct\n(1) Cannot camp/occupy/use camp paraphenelia in a public space\n(2) Cannot sit \"on . . . any object\" in a manner that obstructs ped./veh. traffic\n(3) Cannot sleep in open space\n(4) Cannot cook food in public space\nOceanside, Cal. Code \u00a7 20.21.1(c) (2024)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Oceanside, Cal. Code \u00a7 202.21.2(b) (2024)",
+     "summary": "Prohibited Conduct\nCannot store personal property (including bed rolls) on public property unattended\nOceanside, Cal. Code \u00a7 202.21.2(b) (2024)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Oceanside, Cal. Code \u00a7 20.21.2(d) (2024)",
+     "summary": "Enforcement\n(1) Property may be removed after 24 hr written notice\n(2) Property may be reclaimed w/in 90 days by identifying property and approx. location it was left\nOceanside, Cal. Code \u00a7 20.21.2(d) (2024)."
+    }
+   ]
+  },
+  {
+   "name": "Ontario",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.06,
+   "lon": -117.65,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibited camping in park, street, public parking area. Adopted 1995 and amended 2010\nProhibited storing personal property. Adopted 1995"
+    }
+   ]
+  },
+  {
+   "name": "Orange Cove",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.62,
+   "lon": -119.31,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 12.12",
+     "summary": "Setting up temporary shelter for the purpose and sleeping/\"protractedly lounging\" on seats/benches/tables/anywhere in a park at any time from midnight-6am are restircted activities, considered unreasonable interference that detracts from general puoblic enjoument of parks. (Chapter 12.12 Park Use Regulatinos, 12.12.030 - Restricted activities)"
+    }
+   ]
+  },
+  {
+   "name": "Oxnard",
+   "type": "city",
+   "county": "Ventura",
+   "lat": 34.2,
+   "lon": -119.18,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Lots of standard laws outlawing camping without a permit, panhandling, etc. (not altered since GP)"
+    }
+   ]
+  },
+  {
+   "name": "Palm Desert",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.72,
+   "lon": -116.37,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bed rolls. Adopted 2009."
+    }
+   ]
+  },
+  {
+   "name": "Palm Springs",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.83,
+   "lon": -116.55,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Explicitly bans encampments & lays out specific procedures for clearing them. Explicitly bans encampments regardless of shelter bed availability in a number of situations, including \"unreasonable risk to harm or public safety,\" when there is a \"Disruption to any business, store, religious institution, educational facility, or government services,\" and \"in any open space, waterway, or banks of a wa"
+    }
+   ]
+  },
+  {
+   "name": "Parlier",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.61,
+   "lon": -119.53,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 6.11.510",
+     "summary": "Sleeping and camping in public and certain private places prohibited\n\u201cCamp\u201d means an outdoor place for eating, cooking or sleeping.\nIt is not considered a violation to sleep in any public park between 7am-10pm.\n(Section 6.11.510 Camping)\nNote: this ordinance seems very similar to Clovis'"
+    }
+   ]
+  },
+  {
+   "name": "Pasadena",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.15,
+   "lon": -118.14,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Probably enforcing their standard 2016 camping ordinance. Although the most recent news (September 2024) only said that the mayor and City Council were \"discussing\" actions in light of Grants Pass, and that they were not criminalizing homelessness, they did receive a $2.7 million \"Encampment Resolution\" grant from the state in October."
+    }
+   ]
+  },
+  {
+   "name": "Perris",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.78,
+   "lon": -117.23,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Two provisions under general sections that may or may not target homeless populations. Under use of public property: Unlawful to \"camp, lodge or tarry overnight\" on any public property. Terms not defined. Adopted 1970. Under use of park and recreation facilities: \"No person shall tent, camp, lodge, or otherwise be present in any park or recreation facility after 11:00 p.m. or before 6:00 a.m.\" Ado"
+    }
+   ]
+  },
+  {
+   "name": "Piedmont",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.82,
+   "lon": -122.23,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 18",
+     "summary": "Piedmont doesn't appear to have any ordinances specifically addressing camping or homelessness, aside from generally prohibiting obstructions of streets and sidewalks (Chapter 18, Article IV, Section 18.22)"
+    }
+   ]
+  },
+  {
+   "name": "Pleasanton",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.66,
+   "lon": -121.87,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 13.08.120",
+     "summary": "(A) No person shall camp or lodge in a tent or on the ground in any park and recreation favility, including the parking lot area of any such facility.\n(B) Except during daylight, or except for security purposes and with the written permission of the director, no person shall stay, remain or sleep in a motor home or other motor vehicle otherwise, in any park and recreation facility, including the p"
+    }
+   ]
+  },
+  {
+   "name": "Port Hueneme",
+   "type": "city",
+   "county": "Ventura",
+   "lat": 34.15,
+   "lon": -119.2,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Requested alteration of their laws in Dec. 2024 to reflect the Grant's Pass decision, expected next year"
+    }
+   ]
+  },
+  {
+   "name": "Porterville",
+   "type": "city",
+   "county": "Tulare",
+   "lat": 36.07,
+   "lon": -119.03,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The City of Porterville\u2019s Unsafe Camping Ordinance, approved in April 2024, established new regulations prohibiting camping around critical infrastructure and codifying how, when and where the City may abate or conduct enforcement related to violations of the regulations. Enforcement of the ordinance began May 16, 2024."
+    }
+   ]
+  },
+  {
+   "name": "Poway",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.96,
+   "lon": -117.04,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Poway, Cal. Code \u00a7 8.26.020 (2023)",
+     "summary": "Definitions\nCamping is\n(1) Residing in or using any public area or private property for living accommodation or habitation purposes\n(2) constructing/maintaining/using camping facilities or paraphenelia even if not in active use (bedding included)\nPoway, Cal. Code \u00a7 8.26.020 (2023)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Poway, Cal. Code \u00a7 8.26.030 (2023)",
+     "summary": "Prohibited Activities\nCannot camp on public property or private property w/ permission\nPoway, Cal. Code \u00a7 8.26.030 (2023)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Poway, Cal. Code \u00a7 8.26.070 (2023)",
+     "summary": "Enforcement\n(1) 24 hrs. written notice before removal\n(2) Property may be reclaimed w/in 90 days (unclear on what instructions will provided to owners)\nPoway, Cal. Code \u00a7 8.26.070 (2023)."
+    }
+   ]
+  },
+  {
+   "name": "Rancho Cordova",
+   "type": "city",
+   "county": "Sacramento",
+   "lat": 38.59,
+   "lon": -121.3,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "The Rancho Cordova City Council unanimously approved a new camping ordinance on Sept. 16, 2024 aimed at updating the city\u2019s approach to managing illegal camping in public spaces."
+    }
+   ]
+  },
+  {
+   "name": "Rancho Cucamonga",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.11,
+   "lon": -117.59,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibited loitering in designated public places or in front of buildings. Adopted in 2008"
+    }
+   ]
+  },
+  {
+   "name": "Rancho Mirage",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.74,
+   "lon": -116.41,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags. Enforcement: public nuisance (not infraction/misdemeanor). Adopted 2019."
+    }
+   ]
+  },
+  {
+   "name": "Redlands",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.06,
+   "lon": -117.18,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibited camping and storage of personal property in public places. Enforcement. Adopted in 2015"
+    }
+   ]
+  },
+  {
+   "name": "Redondo Beach",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.85,
+   "lon": -118.39,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Redondo Beach, in accordance with Grants Pass, may restrict camping near supportive housing."
+    }
+   ]
+  },
+  {
+   "name": "Redwood City",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.49,
+   "lon": -122.23,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Anecdote/Interview",
+     "cite": "",
+     "summary": "The ordinance, passed on Jan. 2024, makes refusing to leave an encampment a misdemeanor after two warnings, but it cannot be enforced unless a shelter bed is available and has been declined, which is in line with the law which states that an unhoused person cannot be criminally charged for taking up public space if no shelter is made available to them\nThe Police Department determines if an encampm"
+    }
+   ]
+  },
+  {
+   "name": "Reedley",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.6,
+   "lon": -119.45,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 7-3-5",
+     "summary": "It shall be unlawful for any person to camp within any park or recreation area without having first secured a written permit from the City and paid the applicable fee therefor to the City, and no person shall camp outside of a camp site or site designated in such permit. (Section 7-3-5 Camping; Ord. 2018-004, 8-28-2018)"
+    }
+   ]
+  },
+  {
+   "name": "Riverbank",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.74,
+   "lon": -120.94,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7130.02)",
+     "summary": "The loitering ordinance (\u00a7130.02) could potentially apply to homeless individuals camping in public spaces,If a homeless individual is camping or staying in a public space in a manner that raises safety concerns (e.g., blocking a sidewalk, refusing to identify themselves, or attempting to conceal themselves), they could be subject to this provision.\nHowever, if they provide a valid explanation (e."
+    }
+   ]
+  },
+  {
+   "name": "Riverside",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.95,
+   "lon": -117.4,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "One ordinance prohibits camping/using camp paraphernalia in public spaces. \"Camp paraphernalia\" includes sleeping bags. Enforcement: public nuisance (not infraction/misdemeanor). Adopted 2022. Another prohibits sitting/lying on sidewalks, lying on public benches, and distributing food to large groups of people w/o permit. Adopted 2021."
+    }
+   ]
+  },
+  {
+   "name": "Sacramento",
+   "type": "city",
+   "county": "Sacramento",
+   "lat": 38.58,
+   "lon": -121.49,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Chapter 9.120",
+     "summary": "Amendment of Chapter 9.120 to Title 9 of the Sacramento County Code; The critical infrastructure ordinance adds Chapter 9.120 to the Sacramento County Code to prohibit camping and encampments in the following priority areas:\n\n1. In, on or within 25 feet of \"critical infrastructure\" or the entrance/exit of \"critical infrastructure;\"\n2. Up to 1,000 feet of a location providing year-round overnight s"
+    }
+   ]
+  },
+  {
+   "name": "Salinas",
+   "type": "city",
+   "county": "Monterey",
+   "lat": 36.68,
+   "lon": -121.66,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance, Anecdote/Interview",
+     "cite": "",
+     "summary": "Article XIIII of Salinas Municipal code (passed October 10, 2017) prohibits storing unattended personal property on city land, limits attended property to a volume fitting within a 90-gallon container, and bans storing items that obstruct pathways, entrances, or violate ADA requirements. Article XIV (passed October 10, 2017) prohibits camping in public areas.\nThe city can impound personal property"
+    }
+   ]
+  },
+  {
+   "name": "San Bernardino",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.11,
+   "lon": -117.29,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibited camping and storing personal property in public places. Adopted 1995"
+    }
+   ]
+  },
+  {
+   "name": "San Bruno",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.63,
+   "lon": -122.41,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Anecdote/Interview, Past Ordinance",
+     "cite": "\u00a7 24-2",
+     "summary": "San Bruno Ordinance has a rule about trail camp:  no person shall own, operate or manage, or permit to be owned, operated or managed, upon any premises or property under his or her control any trailer camp in the city, without having first applied for and received permission for such operation or maintenance from the city council. No such trailer camp shall be maintained in any residential portion"
+    }
+   ]
+  },
+  {
+   "name": "San Diego",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.72,
+   "lon": -117.16,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "San Diego, Cal. Code \u00a7 63.0402 (2024)",
+     "summary": "Definitions\n(1) \"Camp\" or \"Camping\" means to place, pitch, erect, or occupy an encampment, or to use camp paraphernalia or both, for the purpose of, or in a way that facilitates outdoor sheltering for living, accommodation or habitation purposes or for remaining outdoors overnight.\n(2) \"Camp Paraphernalia\" includes, but is not limited to, tarps, cots, beds, sleeping bags, hammocks, bedrolls, camp "
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "San Diego, Cal. Code \u00a7 63.0404 (2024)",
+     "summary": "Prohibited Conduct\nPublic nuisance to camp, use camp paraphenelia or accumulate waste\n(1) on public property\n(2) w/in 2 blocks of a school\n(3) in waterways\n(4) w/in transit hubs\nSan Diego, Cal. Code \u00a7 63.0404 (2024)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "San Diego, Cal. Code \u00a7\u00a7 63.0405-06 (2024)",
+     "summary": "Enforcement\n(1) Encampments may be removed\n(2) Violation is a misdemeanor\nSan Diego, Cal. Code \u00a7\u00a7 63.0405-06 (2024)."
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "March 2025- San Diego Board of Supervisors passed Unsafe Camping Ordinance for 2025 - The board, after approving the motion in a 4-0 vote Tuesday, will review and vote on a draft ordinance in two months. If that is approved, it will require a second vote to become law under county policy."
+    }
+   ]
+  },
+  {
+   "name": "San Dimas",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.11,
+   "lon": -117.81,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "San Dimas actually amended their municipal code (not just changing enforcement for an additional code, post Grants Pass). That's code 1310. It is standard language, authorizing citations for storage of belongings on public property and erecting campsites/using camp equpment, with general language about promoting the health and safety of the community."
+    }
+   ]
+  },
+  {
+   "name": "San Fernando",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.28,
+   "lon": -118.44,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Actually adopted a new ordinance - \"Prohibit Encampments and Storage of Personal Property in Public Places\" - prosecution as a misdemeanor or public nuisance. 72 hour notice of sweeps."
+    }
+   ]
+  },
+  {
+   "name": "San Francisco",
+   "type": "city",
+   "county": "City and of San Francisco",
+   "lat": 37.77,
+   "lon": -122.42,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7168)",
+     "summary": "Prior to removing an encampment, must offer shelter or housing (and homelessness services) to all present at the encampment (\u00a7168)"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7168)",
+     "summary": "Between 7am-11pm, unlawful to sit/lie on public sidewalk, or have any object (e.g. chair) on the sidewalk to rest (\u00a7168). Requires 24hr notice of intent to remove encampment (\u00a7169). Personal property will be stored for 90 days for no charge, after which it will be discarded if not collected (\u00a7169)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a73.13)",
+     "summary": "Can't sleep in a park between 8pm-8am (\u00a73.13). If unhoused person accepts social services within 30 hours of issuance of the citaiton, won't be charged (\u00a73.13). Camping prohibited (\u00a73.12)"
+    },
+    {
+     "category": "Proposed Ordinance, Anecdote/Interview",
+     "cite": "",
+     "summary": "Bayview Vehicle Triage, an RV park, is set to close (March '25) 9 months before its lease is up. It was the only safe parking site for homeless people."
+    },
+    {
+     "category": "Proposed Ordinance, Past Ordinance",
+     "cite": "",
+     "summary": "According to a Sep '24 article, residents living in RVs could face towing if they don't accept shelter. \"Under a new law proposed by Breed, oversized vehicles parked overnight \u2014 between the hours of midnight and 6 a.m. \u2014 on city streets could be towed if those living in them have previously rejected an offer of shelter, housing or other services.\""
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Mayor Lurie \"first piece of legislation gives him more power in doling out contracts to address the city\u2019s drug, mental health and homelessness crises, while reducing the supervisors\u2019 oversight.\" He also made permanent the Drug Market Agency Coordination Center, a centralized hub for local, state and federal law enforcement agencies to disrupt drug dealing and public drug use in the Tenderloin and"
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "2.12.25",
+     "summary": "2.12.25 Ordinance - Mayor Lurie has authority to bypass traditional approvals to enact his agenda on homelessness. This ordinance temporarily eases procurement and approval rules to speed up the City\u2019s response to homelessness, drug crises, mental health needs, and public safety hiring. Key provisions include:\n- Procurement Waivers: Competitive bidding rules for related contracts, grants, and leas"
+    }
+   ]
+  },
+  {
+   "name": "San Joaquin County",
+   "type": "county",
+   "county": "San Joaquin",
+   "lat": 37.93,
+   "lon": -121.27,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Chapter 7",
+     "summary": "San Joaquin Board of Supervisors, on 10/24/2024, adopted a county ordinance on camping, post-Grants Pass. Title 6, Division 3, Chapter 7. The ordinance is expansive (includes all bedding) and includes fines of up to $1,000 and up to six months incarceration. Also extends to living in vehicles.  NTS: no follow-up on this, it might have beens topped?"
+    }
+   ]
+  },
+  {
+   "name": "San Jos\u00e9",
+   "type": "city",
+   "county": "Santa Clara",
+   "lat": 37.34,
+   "lon": -121.89,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "The city of San Jos\u00e9 has adopted new restrictions on encampments near schools:\n\n1. The city council unanimously voted to ban all homeless encampments within 150 feet of K-12 schools citywide by establishing \"School Clearance Zones\".\n2. This rule formalizes and slightly expands on a similar policy the city already had in place\n3. Violators would be given a $0 administrative citation, with no crimin"
+    },
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "San Jos\u00e9 has also implemented tougher rules on RV parking:\n\n1. The city can now tow large vehicles in areas where parked cars create safety hazards for drivers, pedestrians, and cyclists.\n2. This policy is particularly focused on areas near schools"
+    }
+   ]
+  },
+  {
+   "name": "San Leandro",
+   "type": "city",
+   "county": "Alameda",
+   "lat": 37.72,
+   "lon": -122.16,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 3-10-925)",
+     "summary": "It is unlawful to camp overnight or to park a trailer coach overnight upon any public street or other public place. (Section 3-10-925)"
+    }
+   ]
+  },
+  {
+   "name": "San Marcos",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 33.14,
+   "lon": -117.17,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "San Marcos, Cal. Code \u00a7 10.33 (2024)",
+     "summary": "Has adopted San Diego City's code\nSan Marcos, Cal. Code \u00a7 10.33 (2024)"
+    }
+   ]
+  },
+  {
+   "name": "San Mateo",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.56,
+   "lon": -122.33,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "5.80.0309",
+     "summary": "(1)Ordinance 5.80.0309  effected on Mar, 2024 rules that no person shall establish, construct, maintain, operate or conduct any camp, as herein defined, without first complying with the provisions of this chapter and obtaining a License as herein provided.\n(2) \"Hopeful Horizons\" passed in Jan., 2024:\n3.109.030 Encampment Prohibitions: It is illegal and considered a public nuisance to set up or mai"
+    }
+   ]
+  },
+  {
+   "name": "Sanger",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.71,
+   "lon": -119.56,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 42-15",
+     "summary": "1. No person shall camp, lodge, sleep or tarry overnight in any park or recreation area without written permission from the director.\n2. No person shall set up tents, shacks, or any other temporary shelter for the purpose of camping in any park or recreational area without written permission of the director.\n3. No person shall leave in a park or recreation area any moveable structure or special ve"
+    }
+   ]
+  },
+  {
+   "name": "Santa Barbara",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.42,
+   "lon": -119.7,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The Clean Community Division of the City of Santa Barbara facillitates a program called \"Clean SB\" dedicated to keeping the City clean through programs focused on litter clean up, illegal dumping, abandonded shopping carts, and encampments. The response team for this program consists of representaties from City Net (a contractor) and represenatives from throughout the City. The team works to conne"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 9.98",
+     "summary": "Chapter 9.98: Pedestrians Blocking Public Sidewalks. No person shall stand, or sit, or congregate in or upon any street, sidewalk or crosswalk in the City with the intent to hinder or obstruct the free passage of pedestrians thereon, or to annoy or molest such pedestrians, or to block the entrance to a building, and refuse to disperse after having been ordered to do so by the police when the polic"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Chapet 9.97: Sitting or Lying on Sidewalks and Paseos Along Certain Downtown Portions of State Street. Deisgnates specific parts in downtown Santa Barbara where it is prohibited to sit or lie down on a sidewalk or public paseo, or upon a blanket, chair, stool, or any other object between 7:00am and 2:00am. Unclear from the chapter what the punishment is but it does state that no one can be prosecu"
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 9.50",
+     "summary": "Chapter 9.50: Prohibition of Abusive Panhandling. This ordinance restricts abusive panhandling across the city of Snata Barbara. Abusive panhandling is defined as blocking or impeding someone's movement, following someone, threateneing them, touching the person, among other things. Furthermore, the ordinance restricts active panhandling (a verbal request) in many locations like bus stops, in a veh"
+    },
+    {
+     "category": "Policy Change",
+     "cite": "",
+     "summary": "**Santa Barbara County, Not City** In January of this year, in the wake of the Grants Pass decision, the Santa Barbara County Supervisors adopted some changes, though not radical shifts, to their approach to dealing with encapments. Newly approved procedures stiipulated that encapments may only be cleared if alternative shelter is avaliable, with exceptions for publcic safety. These exceptions inc"
+    }
+   ]
+  },
+  {
+   "name": "Santa Clara",
+   "type": "city",
+   "county": "Santa Clara",
+   "lat": 37.35,
+   "lon": -121.95,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "\"Good Neighbor Program\": The ordinance would prohibit camping within Water Resources Protection Zones, which include all lands where Valley Water owns property or has easements. Violations could result in fines of up to $500 and jail time of up to 30 days.\n\nThe ordinance would ban:\n1. Unauthorized establishment of encampments\n2. Any unauthorized presence in established zones after sunset\n3. Deposi"
+    }
+   ]
+  },
+  {
+   "name": "Santa Maria",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.95,
+   "lon": -120.44,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Section 6-1.02",
+     "summary": "Section 6-1.02 Camping and storage of personal property in certain areas prohibited. This section largely bans overnight camping, whether inside or outside vehicles. Violation of this section of the code is a misdemeanor. The section does not prohibit camping in areas designated for such purposes for the City Council, but it does not specify in the code what those sections are."
+    }
+   ]
+  },
+  {
+   "name": "Santa Monica",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 34.02,
+   "lon": -118.49,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "4.08.095",
+     "summary": "Santa Monica had an existing, unenforceable camping ordinance. In September 2024, they amended it to reinstate and enforce it. 4.08.095 Prohibition against camping in public places. Ordinance extends even to sleeping bags, pillows, and blankets."
+    }
+   ]
+  },
+  {
+   "name": "Santa Rosa",
+   "type": "city",
+   "county": "Sonoma",
+   "lat": 38.44,
+   "lon": -122.71,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The county in 2023  enacted a ban on camping on public property from 7 a.m. to 9 p.m. daily, among other prohibitions. Santa Rosa\u2019s ordinance, also passed in 2023, prohibits people from setting up tents or storing belongings in city parks or on the sidewalk \u2014 among other public areas \u2014 if it impedes traffic.\nBoth the city and county between 2019 and 2023 operated under a federal injunction limitin"
+    }
+   ]
+  },
+  {
+   "name": "Santee",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.84,
+   "lon": -116.97,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Santee, Cal. Code \u00a7 7.20.020 (2019)",
+     "summary": "Defintions\nCamping includes use of bedding\nSantee, Cal. Code \u00a7 7.20.020 (2019)."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "Santee, Cal. Code \u00a7\u00a7 7.20.030-60",
+     "summary": "Prohibited Conduct\n(1) sitting or lying down on the sidewalk or any object placed on the sidewalk in most city zones\n(2) loitering where no loitering signs have been posted and verban notice has been given\n(3) loitering around public transportation facilities after 48 hr. verbal notice\n(4) camping w/in 1000 ft of a waterbody\n(5) camping in a park\n(6) camping on sidewalks or streets in a manner tha"
+    }
+   ]
+  },
+  {
+   "name": "Seaside",
+   "type": "city",
+   "county": "Monterey",
+   "lat": 36.61,
+   "lon": -121.85,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Anecdote/Interview",
+     "cite": "Chapter 9.20",
+     "summary": "Chapter 9.20 of Seaside Municipal Code current through Ordinance 2010, passed October 7, 2021 prohibits people from using vehicles, campers, or trailers for sleeping, eating, or resting on public property in the city between 10:00 PM and 6:00 AM unless explicitly allowed by posted signs. Additionally, camping, sleeping, or erecting tents or any temporary sleeping facilities on city-owned public pr"
+    }
+   ]
+  },
+  {
+   "name": "Sebastopol",
+   "type": "city",
+   "county": "Sonoma",
+   "lat": 38.4,
+   "lon": -122.82,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Ordinance passed that is enforced starting January 2025, where RV parking is prohibited at all times on residential streets in Sebastopol and is allowed in commercial or industrial zones only between 10 pm and 7 am. Former mayor Diana Rich, who voted for the RV ordinance in March 2022, called it a \u201ccompassionate compromise\u201d that allows people to sleep in Sebastopol in their RVs, but not set up per"
+    }
+   ]
+  },
+  {
+   "name": "Selma",
+   "type": "city",
+   "county": "Fresno",
+   "lat": 36.57,
+   "lon": -119.61,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "In Oct. 2024, Selma City Council approved an ordinance that prohibits sitting, lying, sleeping or camping in a public place, including but not limited to sidewalks, street alleys, sensitive areas or within doorways. It went into effect in November but is not reflected in the online municipal code."
+    }
+   ]
+  },
+  {
+   "name": "Signal Hill",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.8,
+   "lon": -118.17,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Signal Hill updated its camping ordinance in August 2024 to enforce anti-camping post-Grants Pass. Extends to camping, \"camp facilities,\" and \"camp paraphernalia."
+    }
+   ]
+  },
+  {
+   "name": "Solana Beach",
+   "type": "city",
+   "county": "San Diego",
+   "lat": 32.99,
+   "lon": -117.27,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Solana Beach, Cal. Code \u00a7\u00a7 6.24.010-20",
+     "summary": "Prohibited Conduct\n(1) Unlawful to pitch tent/create temp. structure in public space\n(2) May not sleep in public space within any camp/shelter\nSolana Beach, Cal. Code \u00a7\u00a7 6.24.010-20 ("
+    }
+   ]
+  },
+  {
+   "name": "Solvang",
+   "type": "city",
+   "county": "Santa Barbara",
+   "lat": 34.6,
+   "lon": -120.14,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "Chapter 6",
+     "summary": "Chapter 6, Camping, \u00a75-6-3 Camping on city property: Solvang still has a carveout in their municpal code for \"people who do not have any other permanent residence or domicile and/or are involuntarily homeless are not prohibited from camping on public property or rights-of-way, provided camping occurs in compliance with certain rules and regulations outlined in the code."
+    },
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "In October, 2023, Solvang Mayor Mark Infanti signed a new ordinance to allow RVs to be parked in residential neighborhoods and along city streets with restrictions. It had been previously been prohibited. Under the new ordinance, temprorary parking is permitted for 24 hours a a time on city-owned public property, excluding areas within Solvang's Tourism Commercial District. Overnight parking is st"
+    }
+   ]
+  },
+  {
+   "name": "South San Francisco",
+   "type": "city",
+   "county": "San Mateo",
+   "lat": 37.65,
+   "lon": -122.41,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "\u00a7 3, 1937)",
+     "summary": "South San Francisco Ordinance has a rule about trailor camp: It is unlawful for any person, firm or corporation to erect, construct, establish, alter, operate, maintain or offer for public use within the confines of the city, as hereinafter set forth, any campground without first applying for and receiving from the city council a permit so to do, in the manner hereinafter provided, and without com"
+    }
+   ]
+  },
+  {
+   "name": "Stockton",
+   "type": "city",
+   "county": "San Joaquin",
+   "lat": 37.96,
+   "lon": -121.29,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Unanimous City Council vote for a camping ordinance that prohibits unhoused people from camping on public property. Known as the \"Critical Infrastructure Ordinance,\" it imposes daily penalties between $250-$25,000. Includes shelter and vehicles and \"paraphernalia,\" including sleeping bags."
+    }
+   ]
+  },
+  {
+   "name": "Taft",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.14,
+   "lon": -119.46,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Unlawful to \"enter, remain, stay or loiter\" in a public space between 10pm and 6am. Also to \"camp or lodge\" and separately to \"camp overnight.\" Adopted 5/19/2015. Storage of property in public & sleeping in vehicles also prohibited. Adopted 7/18/2023."
+    }
+   ]
+  },
+  {
+   "name": "Tehachapi",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.13,
+   "lon": -118.45,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits storage of personal property in public places, campfires, public urination/defecation, and sleeping/living in a vehicle. No camping-specific provisions."
+    }
+   ]
+  },
+  {
+   "name": "Temecula",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.49,
+   "lon": -117.15,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia (including bed rolls and sleeping bags) in public spaces. Also prohibits lying on public benches."
+    }
+   ]
+  },
+  {
+   "name": "Torrance",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.84,
+   "lon": -118.34,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "",
+     "summary": "Torrance updated its camping ordinance to prohibit camping in public places, fires in parks and public places, \"maintaining shelters,\" and \"loitering at bus stops.\""
+    }
+   ]
+  },
+  {
+   "name": "Tracy",
+   "type": "city",
+   "county": "San Joaquin",
+   "lat": 37.74,
+   "lon": -121.43,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Notes from a meeting on Grants Pass noted that Tracy was supportive of the Grants Pass decision and was already \"ahead of the curve\" on enforcement."
+    }
+   ]
+  },
+  {
+   "name": "Tulare",
+   "type": "city",
+   "county": "Tulare",
+   "lat": 36.21,
+   "lon": -119.35,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The existing camping ordinance in Tulare, which prevents camping in particular parks in the city, \u201cis certainly legal at this point,\u201d said Zamora at the city council meeting, adding that the city does not need to take any action as a result of the ruling. \u201cWe didn't have on our books a lot of ordinances,\u201d said Tulare County Supervisor Dennis Townsend about homelessness, adding that the county was "
+    }
+   ]
+  },
+  {
+   "name": "Turlock",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.49,
+   "lon": -120.85,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "(Effective 11/24)Individuals cannot sit, lie, or sleep in public spaces, particularly in designated sensitive-use areas.\nThe City has the authority to enforce removal, issue citations, and impose misdemeanor penalties including  up to one (1) year in jail and/or a $1,000 fine.\nPersonal property cannot be left in public places and will be removed after 24 hours of notice."
+    }
+   ]
+  },
+  {
+   "name": "Upland",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.1,
+   "lon": -117.65,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping or store personal property on public property / Enforcement. Adopted in 2022"
+    }
+   ]
+  },
+  {
+   "name": "Vacaville",
+   "type": "city",
+   "county": "Solano",
+   "lat": 38.36,
+   "lon": -121.99,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "It is unlawful and a public nuisance for any person or group of persons to camp, occupy camping facilities, or use camping paraphernalia in the following areas:\nA. Any public property, improved or unimproved, including, but not limited to, public streets and sidewalks, parks, open space, and other property. Same for storage of property in public area."
+    }
+   ]
+  },
+  {
+   "name": "Vallejo",
+   "type": "city",
+   "county": "Solano",
+   "lat": 38.1,
+   "lon": -122.26,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance, Anecdote/Interview",
+     "cite": "",
+     "summary": "$175,000 set aside this month for \u201cunhoused strategic plan,\u201d Murray said the city is putting together a selection panel this month to meet and recommend a vendor who will handle drafting the plan, after which the city council can approve the project scope and contractor."
+    }
+   ]
+  },
+  {
+   "name": "Ventura County",
+   "type": "county",
+   "county": "Ventura",
+   "lat": 34.44,
+   "lon": -119.08,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Same since 2022 [namely below]\n(a) No person shall camp or lodge in any designated site or location within the limits of a County Park without first registering for the camping space by completing the appropriate registration card and paying the appropriate use fees.\n(b) No person shall camp or otherwise park overnight in any space not designated for such use by the Director or an authorized repre"
+    }
+   ]
+  },
+  {
+   "name": "Victorville",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.54,
+   "lon": -117.29,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping or store personal property on public property / Penalties. Adopted in 2023"
+    }
+   ]
+  },
+  {
+   "name": "Visalia",
+   "type": "city",
+   "county": "Tulare",
+   "lat": 36.33,
+   "lon": -119.29,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "The changes to sections 12.32 and 12.35 of Visalia\u2019s municipal code allow police to resume detaining people living in city parks or to force them to leave. The alterations also renew the city\u2019s authority to remove highly-visible encampments established by unhoused citizens on public property."
+    }
+   ]
+  },
+  {
+   "name": "Wasco",
+   "type": "city",
+   "county": "Kern",
+   "lat": 35.59,
+   "lon": -119.34,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping/using camp paraphernalia and storing personal property in public. \"Camp paraphernalia\" includes sleeping bags and bedrolls. Adopted 2018."
+    }
+   ]
+  },
+  {
+   "name": "Waterford",
+   "type": "city",
+   "county": "Stanislaus",
+   "lat": 37.64,
+   "lon": -120.76,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "(2024-12-05)Camping and setting up shelters on public land are illegal.\nSleeping outdoors is prohibited at night, unless no indoor shelter is available.\nSpecific areas mentioned include city parks, riverbanks, and under bridges.\nThis ordinance is likely influenced by legal rulings protecting homeless individuals from penalties when shelters are full."
+    }
+   ]
+  },
+  {
+   "name": "Whittier",
+   "type": "city",
+   "county": "Los Angeles",
+   "lat": 33.98,
+   "lon": -118.03,
+   "status": "proposed",
+   "laws": [
+    {
+     "category": "Proposed Ordinance",
+     "cite": "Ordinance no. 3105",
+     "summary": "Whittier had an existing camping ordinance and released a statement of support post-Grants Pass, though hasn't updated its municipal code. Is probably enforcing the existng ordinance, which extends to bedding. Ordinance no. 3105."
+    }
+   ]
+  },
+  {
+   "name": "Wildomar",
+   "type": "city",
+   "county": "Riverside",
+   "lat": 33.6,
+   "lon": -117.28,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping without a permit, although doesn't seem to target the homeless population. Also prohibits storing personal property in public spaces. Adopted 2018."
+    }
+   ]
+  },
+  {
+   "name": "Yucaipa",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.03,
+   "lon": -117.04,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "Prohibits camping or store personal property on public property / Enforcement. Adopted in 2023"
+    }
+   ]
+  },
+  {
+   "name": "Yucca Valley",
+   "type": "city",
+   "county": "San Bernardino",
+   "lat": 34.11,
+   "lon": -116.43,
+   "status": "enacted",
+   "laws": [
+    {
+     "category": "Past Ordinance",
+     "cite": "",
+     "summary": "camping in vehicle prohibited. Adopted in 2014"
+    }
+   ]
+  }
+ ],
+ "recent_changes": []
+}

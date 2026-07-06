@@ -8,7 +8,8 @@
 <style>
   :root { --bg:#101418; --panel:#1a2129; --text:#e8eef4; --muted:#93a3b3;
           --sweep:#e0533d; --citation:#e8a13c; --arrest:#c03a5b;
-          --photo:#4d9de0; --ok:#3fa66a; --overdue:#e0533d; }
+          --photo:#4d9de0; --ok:#3fa66a; --overdue:#e0533d;
+          --enacted:#9d5de0; --proposed:#3dbfb0; }
   * { box-sizing:border-box; margin:0; }
   body { font-family:system-ui,-apple-system,sans-serif; background:var(--bg);
          color:var(--text); height:100vh; display:flex; flex-direction:column; }
@@ -18,7 +19,7 @@
   header .sub { color:var(--muted); font-size:13px; }
   #layout { flex:1; display:flex; min-height:0; }
   #map { flex:1; }
-  aside { width:320px; background:var(--panel); padding:14px; overflow-y:auto;
+  aside { width:330px; background:var(--panel); padding:14px; overflow-y:auto;
           font-size:13px; }
   aside h2 { font-size:14px; margin:12px 0 6px; }
   .stat { display:flex; justify-content:space-between; padding:3px 0;
@@ -26,29 +27,41 @@
   .stat b { font-variant-numeric:tabular-nums; }
   .legend span { display:inline-block; width:10px; height:10px;
                  border-radius:50%; margin-right:6px; }
-  .filters label { display:block; margin:4px 0; color:var(--muted); }
-  select,input { width:100%; padding:5px; background:#0d1116; color:var(--text);
-                 border:1px solid #2a3440; border-radius:4px; }
+  .filters label, .layers label { display:block; margin:4px 0; color:var(--muted); }
+  .layers label { cursor:pointer; }
+  select,input[type=date] { width:100%; padding:5px; background:#0d1116;
+                 color:var(--text); border:1px solid #2a3440; border-radius:4px; }
   table { width:100%; border-collapse:collapse; margin-top:6px; }
   td,th { padding:3px 4px; text-align:left; border-bottom:1px solid #2a3440;
           font-size:12px; }
   .overdue { color:var(--overdue); font-weight:600; }
   .ok { color:var(--ok); }
+  .chg-added { color:var(--sweep); }
+  .chg-modified { color:var(--citation); }
+  .chg-removed { color:var(--ok); }
   footer { padding:6px 16px; background:var(--panel); color:var(--muted);
            font-size:11px; }
-  .leaflet-popup-content-wrapper { background:var(--panel); color:var(--text); }
+  .leaflet-popup-content-wrapper { background:var(--panel); color:var(--text);
+           max-height:320px; overflow-y:auto; }
   .leaflet-popup-tip { background:var(--panel); }
+  .law { margin:6px 0; padding-top:5px; border-top:1px solid #2a3440; }
+  .law b { color:var(--enacted); }
 </style>
 </head>
 <body>
 <header>
   <h1>CA Sweep Watch</h1>
-  <span class="sub">Enforcement actions against unhoused Californians,
-    documented through public records · <span id="generated"></span></span>
+  <span class="sub">Anti-camping laws and enforcement actions against unhoused
+    Californians, documented through public records · <span id="generated"></span></span>
 </header>
 <div id="layout">
   <div id="map"></div>
   <aside>
+    <h2>Layers</h2>
+    <div class="layers">
+      <label><input type="checkbox" id="lyrLaws" checked> Anti-camping laws by jurisdiction</label>
+      <label><input type="checkbox" id="lyrEvents" checked> Enforcement events (from CPRA records)</label>
+    </div>
     <h2>Filters</h2>
     <div class="filters">
       <label>County <select id="fCounty"><option value="">All</option></select></label>
@@ -59,72 +72,122 @@
     <div id="stats"></div>
     <h2>Legend</h2>
     <div class="legend">
+      <div><span style="background:var(--enacted)"></span>Jurisdiction with enacted anti-camping law</div>
+      <div><span style="background:var(--proposed)"></span>Proposed / pending law</div>
       <div><span style="background:var(--sweep)"></span>Sweep / removal</div>
       <div><span style="background:var(--citation)"></span>Citation</div>
       <div><span style="background:var(--arrest)"></span>Arrest</div>
       <div><span style="background:var(--photo)"></span>Geotagged sweep photo</div>
     </div>
+    <h2>Recent ordinance changes</h2>
+    <table id="changes"><tr><td>none recorded yet</td></tr></table>
     <h2>CPRA compliance</h2>
     <table id="compliance"><tr><th>Agency</th><th>Sent</th><th>Status</th></tr></table>
   </aside>
 </div>
 <footer>
   Sources: California Public Records Act productions; ordinance data incl. UC
-  Berkeley Law Homelessness Service Project (SSRN 5257640). Locations from
-  agency records (report text, GIS, photo EXIF). This site publishes no
+  Berkeley Law Homelessness Service Project (SSRN 5257640). Law-layer dots mark
+  jurisdiction centers, not encampment locations. This site publishes no
   personal information about unhoused individuals or requesters.
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-const map = L.map('map').setView([37.3, -119.5], 6);
+const map = L.map('map').setView([36.6, -119.6], 6);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
   { attribution:'© OpenStreetMap © CARTO', maxZoom:19 }).addTo(map);
 
-const COLORS = t =>
+const EVENT_COLORS = t =>
   /photo/.test(t) ? '#4d9de0' :
   /arrest/.test(t) ? '#c03a5b' :
   /cit/.test(t) ? '#e8a13c' : '#e0533d';
 
-let DATA = { events:[], compliance:[], ordinances:[] };
-let layer = L.layerGroup().addTo(map);
+let EVENTS = { events:[], compliance:[] };
+let LAWS = { jurisdictions:[], recent_changes:[] };
+const lawLayer = L.layerGroup().addTo(map);
+const eventLayer = L.layerGroup().addTo(map);
 
 function esc(s){ const d=document.createElement('div'); d.textContent=s??''; return d.innerHTML; }
 
-function render() {
-  const county = fCounty.value, type = fType.value, from = fFrom.value;
-  layer.clearLayers();
+function renderLaws() {
+  lawLayer.clearLayers();
   let shown = 0;
-  const byType = {};
-  for (const e of DATA.events) {
-    if (county && e.county !== county) continue;
-    if (type && e.action_type !== type) continue;
-    if (from && e.action_date && e.action_date < from) continue;
-    byType[e.action_type] = (byType[e.action_type]||0)+1;
-    shown++;
-    L.circleMarker([e.lat, e.lon], {
-      radius:6, weight:1, color:'#0d1116',
-      fillColor:COLORS(e.action_type||''), fillOpacity:.85
-    }).bindPopup(
-      `<b>${esc(e.agency_name)}</b> · ${esc(e.county)} County<br>` +
-      `<b>${esc(e.action_type)}</b>` +
-      (e.code_section ? ` — ${esc(e.code_section)}` : '') +
-      (e.action_date ? `<br>${esc(e.action_date)}` : '') +
-      `<br><small>${esc((e.summary||'').slice(0,220))}</small>` +
-      `<br><small>location: ${esc(e.geocode_source||'n/a')} · ` +
-      `confidence: ${esc(e.confidence)}</small>`
-    ).addTo(layer);
+  if (lyrLaws.checked) {
+    const county = fCounty.value;
+    for (const j of LAWS.jurisdictions) {
+      if (county && j.county !== county && j.name.indexOf(county) < 0) continue;
+      shown++;
+      const color = j.status === 'enacted' ? '#9d5de0' : '#3dbfb0';
+      L.circleMarker([j.lat, j.lon], {
+        radius: j.type === 'county' ? 9 : 5,
+        weight: j.type === 'county' ? 2 : 1,
+        color:'#0d1116', fillColor: color, fillOpacity:.75
+      }).bindPopup(
+        `<b>${esc(j.name)}</b> (${esc(j.type)})` +
+        (j.type === 'city' ? ` · ${esc(j.county)} County` : '') +
+        j.laws.map(l =>
+          `<div class="law"><b>${esc(l.category)}</b>` +
+          (l.cite ? ` — ${esc(l.cite)}` : '') +
+          `<br><small>${esc(l.summary)}</small></div>`).join(''),
+        { maxWidth: 340 }
+      ).addTo(lawLayer);
+    }
   }
+  const el = document.getElementById('lawCount');
+  if (el) el.textContent = shown;
+}
+
+function renderEvents() {
+  eventLayer.clearLayers();
+  let shown = 0;
+  if (lyrEvents.checked) {
+    const county = fCounty.value, type = fType.value, from = fFrom.value;
+    for (const e of EVENTS.events) {
+      if (county && e.county !== county) continue;
+      if (type && e.action_type !== type) continue;
+      if (from && e.action_date && e.action_date < from) continue;
+      shown++;
+      L.circleMarker([e.lat, e.lon], {
+        radius:6, weight:1, color:'#0d1116',
+        fillColor:EVENT_COLORS(e.action_type||''), fillOpacity:.9
+      }).bindPopup(
+        `<b>${esc(e.agency_name)}</b> · ${esc(e.county)} County<br>` +
+        `<b>${esc(e.action_type)}</b>` +
+        (e.code_section ? ` — ${esc(e.code_section)}` : '') +
+        (e.action_date ? `<br>${esc(e.action_date)}` : '') +
+        `<br><small>${esc((e.summary||'').slice(0,220))}</small>`
+      ).addTo(eventLayer);
+    }
+  }
+  const el = document.getElementById('evCount');
+  if (el) el.textContent = shown;
+}
+
+function renderStats() {
+  const enacted = LAWS.jurisdictions.filter(j => j.status==='enacted').length;
+  const proposed = LAWS.jurisdictions.filter(j => j.status!=='enacted').length;
   stats.innerHTML =
-    `<div class="stat"><span>Events shown</span><b>${shown}</b></div>` +
-    Object.entries(byType).sort((a,b)=>b[1]-a[1]).map(([t,n]) =>
-      `<div class="stat"><span>${esc(t)}</span><b>${n}</b></div>`).join('');
+    `<div class="stat"><span>Jurisdictions with enacted laws</span><b>${enacted}</b></div>` +
+    `<div class="stat"><span>Proposed / pending only</span><b>${proposed}</b></div>` +
+    `<div class="stat"><span>Law dots shown</span><b id="lawCount">0</b></div>` +
+    `<div class="stat"><span>Enforcement events shown</span><b id="evCount">0</b></div>`;
+}
+
+function renderChanges() {
+  const rows = (LAWS.recent_changes||[]).slice(-15).reverse();
+  if (!rows.length) return;
+  changes.innerHTML = rows.map(c =>
+    `<tr><td>${esc(c.date)}</td>
+     <td class="chg-${esc(c.change_type)}">${esc(c.change_type)}</td>
+     <td>${esc(c.jurisdiction)}</td></tr>`).join('');
 }
 
 function renderCompliance() {
-  const rows = DATA.compliance
+  const rows = (EVENTS.compliance||[])
     .filter(c => c.requests_sent > 0)
     .sort((a,b) => (b.overdue - a.overdue) || (b.requests_sent - a.requests_sent))
     .slice(0, 60);
+  if (!rows.length) return;
   compliance.innerHTML = '<tr><th>Agency</th><th>Sent</th><th>Status</th></tr>' +
     rows.map(c => `<tr><td>${esc(c.agency_name)}</td><td>${c.requests_sent}</td>
       <td class="${c.overdue ? 'overdue' : 'ok'}">${
@@ -132,19 +195,26 @@ function renderCompliance() {
         c.produced ? 'producing' : 'pending'}</td></tr>`).join('');
 }
 
-fetch('data.json').then(r => r.json()).then(d => {
-  DATA = d;
-  generated.textContent = 'updated ' + (d.generated || '');
-  [...new Set(d.events.map(e => e.county).filter(Boolean))].sort()
+function renderAll(){ renderStats(); renderLaws(); renderEvents(); renderChanges(); }
+
+Promise.allSettled([
+  fetch('ordinances.json').then(r => r.json()),
+  fetch('data.json').then(r => r.json()),
+]).then(([laws, events]) => {
+  if (laws.status === 'fulfilled') LAWS = laws.value;
+  if (events.status === 'fulfilled') EVENTS = events.value;
+  generated.textContent = 'updated ' +
+    (LAWS.generated || EVENTS.generated || '');
+  const counties = new Set(LAWS.jurisdictions.map(j => j.county));
+  (EVENTS.events||[]).forEach(e => counties.add(e.county));
+  [...counties].filter(Boolean).sort()
     .forEach(c => fCounty.add(new Option(c, c)));
-  [...new Set(d.events.map(e => e.action_type).filter(Boolean))].sort()
+  [...new Set((EVENTS.events||[]).map(e => e.action_type).filter(Boolean))].sort()
     .forEach(t => fType.add(new Option(t, t)));
-  render(); renderCompliance();
-}).catch(() => {
-  stats.innerHTML = '<div class="stat"><span>data.json not found — run ' +
-    'pipeline/export_map_data.py</span></div>';
+  renderAll(); renderCompliance();
 });
-[fCounty, fType, fFrom].forEach(el => el.addEventListener('change', render));
+[fCounty, fType, fFrom, lyrLaws, lyrEvents].forEach(el =>
+  el.addEventListener('change', renderAll));
 </script>
 </body>
 </html>

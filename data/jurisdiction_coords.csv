@@ -1,0 +1,214 @@
+jurisdiction,display_name,jurisdiction_type,lat,lon,source
+Adelanto,Adelanto,city,34.58,-117.41,seed_approximate
+Albany,Albany,city,37.89,-122.30,seed_approximate
+Aliso Viejo,Aliso Viejo,city,33.57,-117.73,seed_approximate
+Anaheim,Anaheim,city,33.84,-117.91,seed_approximate
+Antioch,Antioch,city,38.00,-121.81,seed_approximate
+Apple Valley,Apple Valley,city,34.50,-117.19,seed_approximate
+Arcadia,Arcadia,city,34.14,-118.04,seed_approximate
+Arvin,Arvin,city,35.21,-118.83,seed_approximate
+Atherton,Atherton,city,37.46,-122.20,seed_approximate
+Bakersfield,Bakersfield,city,35.37,-119.02,seed_approximate
+Baldwin Park,Baldwin Park,city,34.09,-117.97,seed_approximate
+Banning,Banning,city,33.93,-116.88,seed_approximate
+Barstow,Barstow,city,34.90,-117.02,seed_approximate
+Beaumont,Beaumont,city,33.93,-116.98,seed_approximate
+Belmont,Belmont,city,37.52,-122.28,seed_approximate
+Berkeley,Berkeley,city,37.87,-122.27,seed_approximate
+Big Bear Lake,Big Bear Lake,city,34.24,-116.91,seed_approximate
+Brentwood,Brentwood,city,37.93,-121.70,seed_approximate
+Brisbane,Brisbane,city,37.68,-122.40,seed_approximate
+Broadmoor,Broadmoor,city,37.69,-122.48,seed_approximate
+Burlingame,Burlingame,city,37.58,-122.35,seed_approximate
+California City,California City,city,35.13,-117.99,seed_approximate
+Calimesa,Calimesa,city,33.99,-117.06,seed_approximate
+Camarillo,Camarillo,city,34.22,-119.04,seed_approximate
+Canyon Lake,Canyon Lake,city,33.69,-117.27,seed_approximate
+Carlsbad,Carlsbad,city,33.16,-117.35,seed_approximate
+Carpinteria,Carpinteria,city,34.40,-119.52,seed_approximate
+Cathedral City,Cathedral City,city,33.78,-116.47,seed_approximate
+Ceres,Ceres,city,37.59,-120.96,seed_approximate
+Chino Hills,Chino Hills,city,33.99,-117.75,seed_approximate
+Chula Visa,Chula Vista,city,32.64,-117.08,seed_approximate
+Clovis,Clovis,city,36.83,-119.70,seed_approximate
+Coachella,Coachella,city,33.68,-116.17,seed_approximate
+Coalinga,Coalinga,city,36.14,-120.36,seed_approximate
+Colma,Colma,city,37.68,-122.46,seed_approximate
+Colton,Colton,city,34.07,-117.31,seed_approximate
+Corona,Corona,city,33.88,-117.57,seed_approximate
+Coronado,Coronado,city,32.69,-117.18,seed_approximate
+Cypress,Cypress,city,33.82,-118.04,seed_approximate
+Daly City,Daly City,city,37.69,-122.47,seed_approximate
+Del Mar,Del Mar,city,32.96,-117.27,seed_approximate
+Delano,Delano,city,35.77,-119.25,seed_approximate
+Desert Hot Springs,Desert Hot Springs,city,33.96,-116.50,seed_approximate
+Dublin,Dublin,city,37.70,-121.94,seed_approximate
+East Palo Alto,East Palo Alto,city,37.47,-122.14,seed_approximate
+Eastvale,Eastvale,city,33.96,-117.56,seed_approximate
+El Cajon,El Cajon,city,32.79,-116.96,seed_approximate
+El Segundo,El Segundo,city,33.92,-118.42,seed_approximate
+Elk Grove,Elk Grove,city,38.41,-121.37,seed_approximate
+Emeryville,Emeryville,city,37.83,-122.29,seed_approximate
+Encinitas,Encinitas,city,33.04,-117.29,seed_approximate
+Escondido,Escondido,city,33.12,-117.09,seed_approximate
+Fairfield,Fairfield,city,38.25,-122.04,seed_approximate
+Firebaugh,Firebaugh,city,36.86,-120.46,seed_approximate
+Folsom,Folsom,city,38.68,-121.18,seed_approximate
+Fontana,Fontana,city,34.09,-117.44,seed_approximate
+Foster City,Foster City,city,37.56,-122.27,seed_approximate
+Fowler,Fowler,city,36.63,-119.68,seed_approximate
+Fremont,Fremont,city,37.55,-121.99,seed_approximate
+Fresno,Fresno,city,36.74,-119.79,seed_approximate
+Fullerton,Fullerton,city,33.87,-117.93,seed_approximate
+Garden Grove,Garden Grove,city,33.77,-117.94,seed_approximate
+Glendale,Glendale,city,34.14,-118.25,seed_approximate
+Goleta,Goleta,city,34.44,-119.83,seed_approximate
+Grand Terrace,Grand Terrace,city,34.03,-117.31,seed_approximate
+Hayward,Hayward,city,37.67,-122.08,seed_approximate
+Hemet,Hemet,city,33.75,-116.97,seed_approximate
+Hermosa Beach,Hermosa Beach,city,33.86,-118.40,seed_approximate
+Hesperia,Hesperia,city,34.43,-117.30,seed_approximate
+Highland,Highland,city,34.13,-117.21,seed_approximate
+Hillsborough,Hillsborough,city,37.57,-122.36,seed_approximate
+Hughson,Hughson,city,37.60,-120.87,seed_approximate
+Huntington Beach,Huntington Beach,city,33.66,-118.00,seed_approximate
+Huron,Huron,city,36.20,-120.10,seed_approximate
+Imperial beach,Imperial Beach,city,32.58,-117.11,seed_approximate
+Indian Wells,Indian Wells,city,33.72,-116.34,seed_approximate
+Indo,Indio,city,33.72,-116.22,seed_approximate
+Irvine,Irvine,city,33.68,-117.83,seed_approximate
+Irwindale,Irwindale,city,34.11,-117.93,seed_approximate
+Jurupa Valley,Jurupa Valley,city,34.00,-117.47,seed_approximate
+Kerman,Kerman,city,36.72,-120.06,seed_approximate
+Kingsburg,Kingsburg,city,36.51,-119.55,seed_approximate
+La Mesa,La Mesa,city,32.77,-117.02,seed_approximate
+La Quinta,La Quinta,city,33.66,-116.31,seed_approximate
+Lake Elsinore,Lake Elsinore,city,33.67,-117.33,seed_approximate
+Lemon Grove,Lemon Grove,city,32.74,-117.03,seed_approximate
+Livermore,Livermore,city,37.68,-121.77,seed_approximate
+Lodi,Lodi,city,38.13,-121.27,seed_approximate
+Loma Linda,Loma Linda,city,34.05,-117.26,seed_approximate
+Lompoc,Lompoc,city,34.64,-120.46,seed_approximate
+Long Beach,Long Beach,city,33.77,-118.19,seed_approximate
+Los Angeles,Los Angeles,city,34.05,-118.24,seed_approximate
+Malibu,Malibu,city,34.03,-118.78,seed_approximate
+Manhattan Beach,Manhattan Beach,city,33.88,-118.41,seed_approximate
+Manteca,Manteca,city,37.80,-121.22,seed_approximate
+McFarland,McFarland,city,35.68,-119.23,seed_approximate
+Mendota,Mendota,city,36.75,-120.38,seed_approximate
+Menifee,Menifee,city,33.68,-117.17,seed_approximate
+Menlo Park,Menlo Park,city,37.45,-122.18,seed_approximate
+Modesto,Modesto,city,37.64,-120.99,seed_approximate
+Montclair,Montclair,city,34.08,-117.69,seed_approximate
+Monterey,Monterey,city,36.60,-121.89,seed_approximate
+Moreno Valley,Moreno Valley,city,33.94,-117.23,seed_approximate
+National City,National City,city,32.68,-117.10,seed_approximate
+Needles,Needles,city,34.85,-114.61,seed_approximate
+Newark,Newark,city,37.53,-122.04,seed_approximate
+Newman,Newman,city,37.31,-121.02,seed_approximate
+Newport Beach,Newport Beach,city,33.62,-117.93,seed_approximate
+Norco,Norco,city,33.93,-117.55,seed_approximate
+Oakdale,Oakdale,city,37.77,-120.85,seed_approximate
+Oakland (county seat),Oakland,city,37.80,-122.27,seed_approximate
+Oceanside,Oceanside,city,33.20,-117.38,seed_approximate
+Ontario,Ontario,city,34.06,-117.65,seed_approximate
+Orange Cove,Orange Cove,city,36.62,-119.31,seed_approximate
+Oxnard,Oxnard,city,34.20,-119.18,seed_approximate
+Pacifica,Pacifica,city,37.61,-122.49,seed_approximate
+Palm Desert,Palm Desert,city,33.72,-116.37,seed_approximate
+Palm Springs,Palm Springs,city,33.83,-116.55,seed_approximate
+Parlier,Parlier,city,36.61,-119.53,seed_approximate
+Pasadena,Pasadena,city,34.15,-118.14,seed_approximate
+Patterson,Patterson,city,37.47,-121.13,seed_approximate
+Perris,Perris,city,33.78,-117.23,seed_approximate
+Petaluma,Petaluma,city,38.23,-122.64,seed_approximate
+Piedmont,Piedmont,city,37.82,-122.23,seed_approximate
+Pleasanton,Pleasanton,city,37.66,-121.87,seed_approximate
+Port Hueneme,Port Hueneme,city,34.15,-119.20,seed_approximate
+Porterville,Porterville,city,36.07,-119.03,seed_approximate
+Poway,Poway,city,32.96,-117.04,seed_approximate
+Rancho Cordova,Rancho Cordova,city,38.59,-121.30,seed_approximate
+Rancho Cucamonga,Rancho Cucamonga,city,34.11,-117.59,seed_approximate
+Rancho Mirage,Rancho Mirage,city,33.74,-116.41,seed_approximate
+Redlands,Redlands,city,34.06,-117.18,seed_approximate
+Redondo Beach,Redondo Beach,city,33.85,-118.39,seed_approximate
+Redwood City,Redwood City,city,37.49,-122.23,seed_approximate
+Reedley,Reedley,city,36.60,-119.45,seed_approximate
+Rialto,Rialto,city,34.11,-117.37,seed_approximate
+Riverbank,Riverbank,city,37.74,-120.94,seed_approximate
+Riverside,Riverside,city,33.95,-117.40,seed_approximate
+Sacramento,Sacramento,city,38.58,-121.49,seed_approximate
+Salida,Salida,city,37.71,-121.08,seed_approximate
+Salinas,Salinas,city,36.68,-121.66,seed_approximate
+San Bernardino,San Bernardino,city,34.11,-117.29,seed_approximate
+San Bruno,San Bruno,city,37.63,-122.41,seed_approximate
+San Clemente,San Clemente,city,33.43,-117.61,seed_approximate
+San Diego,San Diego,city,32.72,-117.16,seed_approximate
+San Dimas,San Dimas,city,34.11,-117.81,seed_approximate
+San Fernando,San Fernando,city,34.28,-118.44,seed_approximate
+San Francisco,San Francisco,city,37.77,-122.42,seed_approximate
+San Joaquin,San Joaquin,city,36.61,-120.19,seed_approximate
+San José,San José,city,37.34,-121.89,seed_approximate
+San Leandro,San Leandro,city,37.72,-122.16,seed_approximate
+San Marcos,San Marcos,city,33.14,-117.17,seed_approximate
+San Mateo,San Mateo,city,37.56,-122.33,seed_approximate
+Sanger,Sanger,city,36.71,-119.56,seed_approximate
+Santa Barbara,Santa Barbara,city,34.42,-119.70,seed_approximate
+Santa Clara,Santa Clara,city,37.35,-121.95,seed_approximate
+Santa Maria,Santa Maria,city,34.95,-120.44,seed_approximate
+Santa Monica,Santa Monica,city,34.02,-118.49,seed_approximate
+Santa Rosa,Santa Rosa,city,38.44,-122.71,seed_approximate
+Santee,Santee,city,32.84,-116.97,seed_approximate
+Seaside,Seaside,city,36.61,-121.85,seed_approximate
+Sebastopol,Sebastopol,city,38.40,-122.82,seed_approximate
+Selma,Selma,city,36.57,-119.61,seed_approximate
+Signal Hill,Signal Hill,city,33.80,-118.17,seed_approximate
+Solana Beach,Solana Beach,city,32.99,-117.27,seed_approximate
+Solvang,Solvang,city,34.60,-120.14,seed_approximate
+South San Francisco,South San Francisco,city,37.65,-122.41,seed_approximate
+Stockton,Stockton,city,37.96,-121.29,seed_approximate
+Suisun City,Suisun City,city,38.24,-122.04,seed_approximate
+Taft,Taft,city,35.14,-119.46,seed_approximate
+Tehachapi,Tehachapi,city,35.13,-118.45,seed_approximate
+Temecula,Temecula,city,33.49,-117.15,seed_approximate
+Thousand Oaks,Thousand Oaks,city,34.17,-118.84,seed_approximate
+Torrance,Torrance,city,33.84,-118.34,seed_approximate
+Tracy,Tracy,city,37.74,-121.43,seed_approximate
+Tulare,Tulare,city,36.21,-119.35,seed_approximate
+Turlock,Turlock,city,37.49,-120.85,seed_approximate
+Twenynine Palms,Twentynine Palms,city,34.14,-116.05,seed_approximate
+Union City,Union City,city,37.60,-122.08,seed_approximate
+Upland,Upland,city,34.10,-117.65,seed_approximate
+Vacaville,Vacaville,city,38.36,-121.99,seed_approximate
+Vallejo,Vallejo,city,38.10,-122.26,seed_approximate
+Ventura (San Buenaventura),Ventura,city,34.28,-119.29,seed_approximate
+Victorville,Victorville,city,34.54,-117.29,seed_approximate
+Visalia,Visalia,city,36.33,-119.29,seed_approximate
+Vista,Vista,city,33.20,-117.24,seed_approximate
+Wasco,Wasco,city,35.59,-119.34,seed_approximate
+Waterford,Waterford,city,37.64,-120.76,seed_approximate
+Whittier,Whittier,city,33.98,-118.03,seed_approximate
+Wildomar,Wildomar,city,33.60,-117.28,seed_approximate
+Yucaipa,Yucaipa,city,34.03,-117.04,seed_approximate
+Yucca Valley,Yucca Valley,city,34.11,-116.43,seed_approximate
+Alameda County,Alameda County,county,37.65,-121.88,seed_approximate
+City and County of San Francisco,San Francisco (City & County),county,37.76,-122.45,seed_approximate
+Contra Costa County,Contra Costa County,county,37.92,-121.93,seed_approximate
+Fresno County,Fresno County,county,36.98,-119.65,seed_approximate
+Kern County,Kern County,county,35.34,-118.73,seed_approximate
+Los Angeles County,Los Angeles County,county,34.32,-118.22,seed_approximate
+Monterey County,Monterey County,county,36.24,-121.31,seed_approximate
+Orange County,Orange County,county,33.70,-117.76,seed_approximate
+Riverside County,Riverside County,county,33.74,-116.00,seed_approximate
+Sacramento,Sacramento County,county,38.45,-121.34,seed_approximate_county_row
+San Bernardino County,San Bernardino County,county,34.84,-116.18,seed_approximate
+San Diego County,San Diego County,county,33.03,-116.74,seed_approximate
+San Joaquin County,San Joaquin County,county,37.93,-121.27,seed_approximate
+San Mateo County,San Mateo County,county,37.43,-122.33,seed_approximate
+Santa Barbara County,Santa Barbara County,county,34.72,-120.02,seed_approximate
+Santa Clara County,Santa Clara County,county,37.23,-121.70,seed_approximate
+Solano County,Solano County,county,38.27,-121.94,seed_approximate
+Sonoma County,Sonoma County,county,38.53,-122.89,seed_approximate
+Stanislaus County,Stanislaus County,county,37.56,-120.99,seed_approximate
+Tulare County,Tulare County,county,36.22,-118.80,seed_approximate
+Ventura County,Ventura County,county,34.44,-119.08,seed_approximate

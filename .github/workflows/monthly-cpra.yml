@@ -26,6 +26,12 @@ jobs:
       - name: Check deadlines, generate escalation letters
         working-directory: pipeline
         run: python deadlines.py --letters
+      - name: Watch for ordinance changes (refetch source data + diff)
+        working-directory: pipeline
+        run: python ordinance_watch.py --refetch
+      - name: Rebuild ordinance map layer
+        working-directory: pipeline
+        run: python build_ordinance_map.py
       - name: Export map data
         working-directory: pipeline
         run: python export_map_data.py
@@ -33,6 +39,8 @@ jobs:
         run: |
           git config user.name "sweep-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f outbox site/data.json
-          git commit -m "Monthly CPRA cycle $(date +%Y-%m)" || echo "nothing to commit"
+          git add -f outbox site/data.json site/ordinances.json \
+                     data/ordinance_snapshots data/ordinance_changes.csv \
+                     data/berkeley_appendix 2>/dev/null || true
+          git commit -m "Monthly CPRA + ordinance-watch cycle $(date +%Y-%m)" || echo "nothing to commit"
           git push
