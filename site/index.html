@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CA Sweep Watch — Encampment Enforcement Across California</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root { --bg:#101418; --panel:#1a2129; --text:#e8eef4; --muted:#93a3b3;
+          --sweep:#e0533d; --citation:#e8a13c; --arrest:#c03a5b;
+          --photo:#4d9de0; --ok:#3fa66a; --overdue:#e0533d; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:system-ui,-apple-system,sans-serif; background:var(--bg);
+         color:var(--text); height:100vh; display:flex; flex-direction:column; }
+  header { padding:10px 16px; background:var(--panel); display:flex;
+           align-items:baseline; gap:14px; flex-wrap:wrap; }
+  header h1 { font-size:18px; }
+  header .sub { color:var(--muted); font-size:13px; }
+  #layout { flex:1; display:flex; min-height:0; }
+  #map { flex:1; }
+  aside { width:320px; background:var(--panel); padding:14px; overflow-y:auto;
+          font-size:13px; }
+  aside h2 { font-size:14px; margin:12px 0 6px; }
+  .stat { display:flex; justify-content:space-between; padding:3px 0;
+          border-bottom:1px solid #2a3440; }
+  .stat b { font-variant-numeric:tabular-nums; }
+  .legend span { display:inline-block; width:10px; height:10px;
+                 border-radius:50%; margin-right:6px; }
+  .filters label { display:block; margin:4px 0; color:var(--muted); }
+  select,input { width:100%; padding:5px; background:#0d1116; color:var(--text);
+                 border:1px solid #2a3440; border-radius:4px; }
+  table { width:100%; border-collapse:collapse; margin-top:6px; }
+  td,th { padding:3px 4px; text-align:left; border-bottom:1px solid #2a3440;
+          font-size:12px; }
+  .overdue { color:var(--overdue); font-weight:600; }
+  .ok { color:var(--ok); }
+  footer { padding:6px 16px; background:var(--panel); color:var(--muted);
+           font-size:11px; }
+  .leaflet-popup-content-wrapper { background:var(--panel); color:var(--text); }
+  .leaflet-popup-tip { background:var(--panel); }
+</style>
+</head>
+<body>
+<header>
+  <h1>CA Sweep Watch</h1>
+  <span class="sub">Enforcement actions against unhoused Californians,
+    documented through public records · <span id="generated"></span></span>
+</header>
+<div id="layout">
+  <div id="map"></div>
+  <aside>
+    <h2>Filters</h2>
+    <div class="filters">
+      <label>County <select id="fCounty"><option value="">All</option></select></label>
+      <label>Action type <select id="fType"><option value="">All</option></select></label>
+      <label>From <input type="date" id="fFrom"></label>
+    </div>
+    <h2>Statewide totals</h2>
+    <div id="stats"></div>
+    <h2>Legend</h2>
+    <div class="legend">
+      <div><span style="background:var(--sweep)"></span>Sweep / removal</div>
+      <div><span style="background:var(--citation)"></span>Citation</div>
+      <div><span style="background:var(--arrest)"></span>Arrest</div>
+      <div><span style="background:var(--photo)"></span>Geotagged sweep photo</div>
+    </div>
+    <h2>CPRA compliance</h2>
+    <table id="compliance"><tr><th>Agency</th><th>Sent</th><th>Status</th></tr></table>
+  </aside>
+</div>
+<footer>
+  Sources: California Public Records Act productions; ordinance data incl. UC
+  Berkeley Law Homelessness Service Project (SSRN 5257640). Locations from
+  agency records (report text, GIS, photo EXIF). This site publishes no
+  personal information about unhoused individuals or requesters.
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const map = L.map('map').setView([37.3, -119.5], 6);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+  { attribution:'© OpenStreetMap © CARTO', maxZoom:19 }).addTo(map);
+
+const COLORS = t =>
+  /photo/.test(t) ? '#4d9de0' :
+  /arrest/.test(t) ? '#c03a5b' :
+  /cit/.test(t) ? '#e8a13c' : '#e0533d';
+
+let DATA = { events:[], compliance:[], ordinances:[] };
+let layer = L.layerGroup().addTo(map);
+
+function esc(s){ const d=document.createElement('div'); d.textContent=s??''; return d.innerHTML; }
+
+function render() {
+  const county = fCounty.value, type = fType.value, from = fFrom.value;
+  layer.clearLayers();
+  let shown = 0;
+  const byType = {};
+  for (const e of DATA.events) {
+    if (county && e.county !== county) continue;
+    if (type && e.action_type !== type) continue;
+    if (from && e.action_date && e.action_date < from) continue;
+    byType[e.action_type] = (byType[e.action_type]||0)+1;
+    shown++;
+    L.circleMarker([e.lat, e.lon], {
+      radius:6, weight:1, color:'#0d1116',
+      fillColor:COLORS(e.action_type||''), fillOpacity:.85
+    }).bindPopup(
+      `<b>${esc(e.agency_name)}</b> · ${esc(e.county)} County<br>` +
+      `<b>${esc(e.action_type)}</b>` +
+      (e.code_section ? ` — ${esc(e.code_section)}` : '') +
+      (e.action_date ? `<br>${esc(e.action_date)}` : '') +
+      `<br><small>${esc((e.summary||'').slice(0,220))}</small>` +
+      `<br><small>location: ${esc(e.geocode_source||'n/a')} · ` +
+      `confidence: ${esc(e.confidence)}</small>`
+    ).addTo(layer);
+  }
+  stats.innerHTML =
+    `<div class="stat"><span>Events shown</span><b>${shown}</b></div>` +
+    Object.entries(byType).sort((a,b)=>b[1]-a[1]).map(([t,n]) =>
+      `<div class="stat"><span>${esc(t)}</span><b>${n}</b></div>`).join('');
+}
+
+function renderCompliance() {
+  const rows = DATA.compliance
+    .filter(c => c.requests_sent > 0)
+    .sort((a,b) => (b.overdue - a.overdue) || (b.requests_sent - a.requests_sent))
+    .slice(0, 60);
+  compliance.innerHTML = '<tr><th>Agency</th><th>Sent</th><th>Status</th></tr>' +
+    rows.map(c => `<tr><td>${esc(c.agency_name)}</td><td>${c.requests_sent}</td>
+      <td class="${c.overdue ? 'overdue' : 'ok'}">${
+        c.overdue ? c.overdue + ' overdue' :
+        c.produced ? 'producing' : 'pending'}</td></tr>`).join('');
+}
+
+fetch('data.json').then(r => r.json()).then(d => {
+  DATA = d;
+  generated.textContent = 'updated ' + (d.generated || '');
+  [...new Set(d.events.map(e => e.county).filter(Boolean))].sort()
+    .forEach(c => fCounty.add(new Option(c, c)));
+  [...new Set(d.events.map(e => e.action_type).filter(Boolean))].sort()
+    .forEach(t => fType.add(new Option(t, t)));
+  render(); renderCompliance();
+}).catch(() => {
+  stats.innerHTML = '<div class="stat"><span>data.json not found — run ' +
+    'pipeline/export_map_data.py</span></div>';
+});
+[fCounty, fType, fFrom].forEach(el => el.addEventListener('change', render));
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+config.ini
+sweepwatch.db
+inbox/
+outbox/
+__pycache__/
+*.pyc
