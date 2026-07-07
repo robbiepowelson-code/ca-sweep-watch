@@ -1,0 +1,541 @@
+name,jurisdiction_type,lat,lon,source
+Adelanto,city,34.580902,-117.439458,census_gazetteer_2024
+Agoura Hills,city,34.148942,-118.76393,census_gazetteer_2024
+Alameda,city,37.741911,-122.259914,census_gazetteer_2024
+Albany,city,37.89065,-122.318116,census_gazetteer_2024
+Alhambra,city,34.083571,-118.136444,census_gazetteer_2024
+Aliso Viejo,city,33.57921,-117.728898,census_gazetteer_2024
+Alturas,city,41.489136,-120.551286,census_gazetteer_2024
+Amador City,city,38.418994,-120.823263,census_gazetteer_2024
+American Canyon,city,38.179033,-122.259602,census_gazetteer_2024
+Anaheim,city,33.855502,-117.758657,census_gazetteer_2024
+Anderson,city,40.449755,-122.29507,census_gazetteer_2024
+Angels,city,38.071037,-120.551729,census_gazetteer_2024
+Antioch,city,37.978336,-121.796064,census_gazetteer_2024
+Apple Valley,city,34.533376,-117.210358,census_gazetteer_2024
+Arcadia,city,34.132689,-118.036347,census_gazetteer_2024
+Arcata,city,40.862291,-124.074967,census_gazetteer_2024
+Arroyo Grande,city,35.124149,-120.584533,census_gazetteer_2024
+Artesia,city,33.867591,-118.080634,census_gazetteer_2024
+Arvin,city,35.194361,-118.830569,census_gazetteer_2024
+Atascadero,city,35.485718,-120.687942,census_gazetteer_2024
+Atherton,city,37.457072,-122.201058,census_gazetteer_2024
+Atwater,city,37.354049,-120.597177,census_gazetteer_2024
+Auburn,city,38.895075,-121.076739,census_gazetteer_2024
+Avalon,city,33.343335,-118.317615,census_gazetteer_2024
+Avenal,city,36.031107,-120.116174,census_gazetteer_2024
+Azusa,city,34.138524,-117.912253,census_gazetteer_2024
+Bakersfield,city,35.353171,-119.037919,census_gazetteer_2024
+Baldwin Park,city,34.082824,-117.971286,census_gazetteer_2024
+Banning,city,33.945903,-116.899044,census_gazetteer_2024
+Barstow,city,34.866987,-117.043035,census_gazetteer_2024
+Beaumont,city,33.876722,-116.953009,census_gazetteer_2024
+Bell,city,33.979704,-118.179249,census_gazetteer_2024
+Bell Gardens,city,33.964379,-118.154437,census_gazetteer_2024
+Bellflower,city,33.887821,-118.12725,census_gazetteer_2024
+Belmont,city,37.514398,-122.294475,census_gazetteer_2024
+Belvedere,city,37.873567,-122.470995,census_gazetteer_2024
+Benicia,city,38.072733,-122.155169,census_gazetteer_2024
+Berkeley,city,37.865673,-122.298725,census_gazetteer_2024
+Beverly Hills,city,34.07923,-118.402437,census_gazetteer_2024
+Big Bear Lake,city,34.242888,-116.893893,census_gazetteer_2024
+Biggs,city,39.410187,-121.713322,census_gazetteer_2024
+Bishop,city,37.366381,-118.395808,census_gazetteer_2024
+Blue Lake,city,40.880993,-123.994912,census_gazetteer_2024
+Blythe,city,33.65352,-114.621823,census_gazetteer_2024
+Bradbury,city,34.153159,-117.968818,census_gazetteer_2024
+Brawley,city,32.978454,-115.528569,census_gazetteer_2024
+Brea,city,33.925178,-117.865111,census_gazetteer_2024
+Brentwood,city,37.935578,-121.71897,census_gazetteer_2024
+Brisbane,city,37.67575,-122.383302,census_gazetteer_2024
+Buellton,city,34.615497,-120.194237,census_gazetteer_2024
+Buena Park,city,33.857353,-118.007373,census_gazetteer_2024
+Burbank,city,34.190079,-118.326405,census_gazetteer_2024
+Burlingame,city,37.589952,-122.363342,census_gazetteer_2024
+Calabasas,city,34.134252,-118.666455,census_gazetteer_2024
+Calexico,city,32.684859,-115.494738,census_gazetteer_2024
+California City,city,35.14659,-117.869346,census_gazetteer_2024
+Calimesa,city,33.987357,-117.054214,census_gazetteer_2024
+Calipatria,city,33.168651,-115.485641,census_gazetteer_2024
+Calistoga,city,38.581408,-122.582696,census_gazetteer_2024
+Camarillo,city,34.221823,-119.032154,census_gazetteer_2024
+Campbell,city,37.280244,-121.953296,census_gazetteer_2024
+Canyon Lake,city,33.688302,-117.263547,census_gazetteer_2024
+Capitola,city,36.976083,-121.954012,census_gazetteer_2024
+Carlsbad,city,33.129284,-117.284183,census_gazetteer_2024
+Carmel-by-the-Sea,city,36.552881,-121.921919,census_gazetteer_2024
+Carpinteria,city,34.385234,-119.500759,census_gazetteer_2024
+Carson,city,33.840367,-118.249574,census_gazetteer_2024
+Cathedral City,city,33.835487,-116.463103,census_gazetteer_2024
+Ceres,city,37.598786,-120.968081,census_gazetteer_2024
+Cerritos,city,33.867745,-118.069471,census_gazetteer_2024
+Chico,city,39.758951,-121.81772,census_gazetteer_2024
+Chino,city,33.978037,-117.657719,census_gazetteer_2024
+Chino Hills,city,33.942969,-117.725648,census_gazetteer_2024
+Chowchilla,city,37.116104,-120.241978,census_gazetteer_2024
+Chula Vista,city,32.62767,-117.01517,census_gazetteer_2024
+Citrus Heights,city,38.69481,-121.287953,census_gazetteer_2024
+Claremont,city,34.124925,-117.713923,census_gazetteer_2024
+Clayton,city,37.940322,-121.930075,census_gazetteer_2024
+Clearlake,city,38.960045,-122.633232,census_gazetteer_2024
+Cloverdale,city,38.794795,-123.014703,census_gazetteer_2024
+Clovis,city,36.827809,-119.681843,census_gazetteer_2024
+Coachella,city,33.69038,-116.143128,census_gazetteer_2024
+Coalinga,city,36.133014,-120.339005,census_gazetteer_2024
+Colfax,city,39.093799,-120.953222,census_gazetteer_2024
+Colma,city,37.676697,-122.452821,census_gazetteer_2024
+Colton,city,34.054525,-117.325029,census_gazetteer_2024
+Colusa,city,39.200023,-122.009481,census_gazetteer_2024
+Commerce,city,33.994523,-118.149952,census_gazetteer_2024
+Compton,city,33.894047,-118.227469,census_gazetteer_2024
+Concord,city,37.972184,-122.001587,census_gazetteer_2024
+Corcoran,city,36.084057,-119.561268,census_gazetteer_2024
+Corning,city,39.9282,-122.182009,census_gazetteer_2024
+Corona,city,33.861969,-117.565495,census_gazetteer_2024
+Coronado,city,32.657625,-117.156539,census_gazetteer_2024
+Corte Madera,city,37.931846,-122.507738,census_gazetteer_2024
+Costa Mesa,city,33.665905,-117.912336,census_gazetteer_2024
+Cotati,city,38.328492,-122.710049,census_gazetteer_2024
+Covina,city,34.090475,-117.882143,census_gazetteer_2024
+Crescent City,city,41.764514,-124.200779,census_gazetteer_2024
+Cudahy,city,33.964003,-118.182561,census_gazetteer_2024
+Culver City,city,34.00582,-118.396781,census_gazetteer_2024
+Cupertino,city,37.3194,-122.044957,census_gazetteer_2024
+Cypress,city,33.818477,-118.038307,census_gazetteer_2024
+Daly City,city,37.701684,-122.464968,census_gazetteer_2024
+Dana Point,city,33.475452,-117.693087,census_gazetteer_2024
+Danville,city,37.812142,-121.969824,census_gazetteer_2024
+Davis,city,38.556147,-121.737793,census_gazetteer_2024
+Del Mar,city,32.963945,-117.259804,census_gazetteer_2024
+Del Rey Oaks,city,36.589699,-121.829527,census_gazetteer_2024
+Delano,city,35.76643,-119.264221,census_gazetteer_2024
+Desert Hot Springs,city,33.957591,-116.542284,census_gazetteer_2024
+Diamond Bar,city,34.001573,-117.817601,census_gazetteer_2024
+Dinuba,city,36.545121,-119.398805,census_gazetteer_2024
+Dixon,city,38.447512,-121.824223,census_gazetteer_2024
+Dorris,city,41.964965,-121.920387,census_gazetteer_2024
+Dos Palos,city,36.985424,-120.633845,census_gazetteer_2024
+Downey,city,33.938237,-118.130856,census_gazetteer_2024
+Duarte,city,34.160967,-117.950447,census_gazetteer_2024
+Dublin,city,37.716137,-121.896229,census_gazetteer_2024
+Dunsmuir,city,41.231526,-122.270939,census_gazetteer_2024
+East Palo Alto,city,37.46778,-122.13255,census_gazetteer_2024
+Eastvale,city,33.963274,-117.582369,census_gazetteer_2024
+El Cajon,city,32.801673,-116.960468,census_gazetteer_2024
+El Centro,city,32.786351,-115.560206,census_gazetteer_2024
+El Cerrito,city,37.919574,-122.302519,census_gazetteer_2024
+El Monte,city,34.074633,-118.029136,census_gazetteer_2024
+El Paso de Robles (Paso Robles),city,35.628513,-120.650356,census_gazetteer_2024
+El Segundo,city,33.910367,-118.425079,census_gazetteer_2024
+Elk Grove,city,38.414621,-121.384961,census_gazetteer_2024
+Emeryville,city,37.838473,-122.301682,census_gazetteer_2024
+Encinitas,city,33.050632,-117.263616,census_gazetteer_2024
+Escalon,city,37.791336,-120.999643,census_gazetteer_2024
+Escondido,city,33.133053,-117.074043,census_gazetteer_2024
+Etna,city,41.458199,-122.895819,census_gazetteer_2024
+Eureka,city,40.797594,-124.154191,census_gazetteer_2024
+Exeter,city,36.294137,-119.145953,census_gazetteer_2024
+Fairfax,city,37.988532,-122.595208,census_gazetteer_2024
+Fairfield,city,38.26206,-122.032386,census_gazetteer_2024
+Farmersville,city,36.304739,-119.208605,census_gazetteer_2024
+Ferndale,city,40.578144,-124.261247,census_gazetteer_2024
+Fillmore,city,34.398958,-118.91746,census_gazetteer_2024
+Firebaugh,city,36.853745,-120.453746,census_gazetteer_2024
+Folsom,city,38.666597,-121.141635,census_gazetteer_2024
+Fontana,city,34.109686,-117.462888,census_gazetteer_2024
+Fort Bragg,city,39.439803,-123.801757,census_gazetteer_2024
+Fort Jones,city,41.608452,-122.841066,census_gazetteer_2024
+Fortuna,city,40.587084,-124.142161,census_gazetteer_2024
+Foster City,city,37.56482,-122.250782,census_gazetteer_2024
+Fountain Valley,city,33.710582,-117.951129,census_gazetteer_2024
+Fowler,city,36.624186,-119.674748,census_gazetteer_2024
+Fremont,city,37.49446,-121.94115,census_gazetteer_2024
+Fresno,city,36.782684,-119.793359,census_gazetteer_2024
+Fullerton,city,33.885716,-117.928025,census_gazetteer_2024
+Galt,city,38.268458,-121.298952,census_gazetteer_2024
+Garden Grove,city,33.778782,-117.960472,census_gazetteer_2024
+Gardena,city,33.894417,-118.307522,census_gazetteer_2024
+Gilroy,city,37.006407,-121.585321,census_gazetteer_2024
+Glendale,city,34.181393,-118.24583,census_gazetteer_2024
+Glendora,city,34.144964,-117.847804,census_gazetteer_2024
+Goleta,city,34.435441,-119.858946,census_gazetteer_2024
+Gonzales,city,36.505979,-121.442918,census_gazetteer_2024
+Grand Terrace,city,34.031085,-117.3131,census_gazetteer_2024
+Grass Valley,city,39.220305,-121.052654,census_gazetteer_2024
+Greenfield,city,36.323977,-121.243699,census_gazetteer_2024
+Gridley,city,39.362883,-121.697543,census_gazetteer_2024
+Grover Beach,city,35.120888,-120.619664,census_gazetteer_2024
+Guadalupe,city,34.964929,-120.573127,census_gazetteer_2024
+Gustine,city,37.252549,-120.995513,census_gazetteer_2024
+Half Moon Bay,city,37.467319,-122.440485,census_gazetteer_2024
+Hanford,city,36.327719,-119.654609,census_gazetteer_2024
+Hawaiian Gardens,city,33.830482,-118.073451,census_gazetteer_2024
+Hawthorne,city,33.914775,-118.348083,census_gazetteer_2024
+Hayward,city,37.626826,-122.104015,census_gazetteer_2024
+Healdsburg,city,38.622526,-122.865133,census_gazetteer_2024
+Hemet,city,33.734068,-116.996808,census_gazetteer_2024
+Hercules,city,38.021427,-122.288929,census_gazetteer_2024
+Hermosa Beach,city,33.869819,-118.405296,census_gazetteer_2024
+Hesperia,city,34.397038,-117.315198,census_gazetteer_2024
+Hidden Hills,city,34.163744,-118.66121,census_gazetteer_2024
+Highland,city,34.113473,-117.165729,census_gazetteer_2024
+Hillsborough,city,37.557206,-122.358541,census_gazetteer_2024
+Hollister,city,36.855599,-121.398598,census_gazetteer_2024
+Holtville,city,32.813781,-115.378319,census_gazetteer_2024
+Hughson,city,37.602135,-120.866004,census_gazetteer_2024
+Huntington Beach,city,33.698007,-118.003834,census_gazetteer_2024
+Huntington Park,city,33.979248,-118.217438,census_gazetteer_2024
+Huron,city,36.204381,-120.095119,census_gazetteer_2024
+Imperial,city,32.838801,-115.572012,census_gazetteer_2024
+Imperial Beach,city,32.56914,-117.114921,census_gazetteer_2024
+Indian Wells,city,33.699892,-116.32955,census_gazetteer_2024
+Indio,city,33.731639,-116.235971,census_gazetteer_2024
+Industry,city,34.026232,-117.940327,census_gazetteer_2024
+Inglewood,city,33.956068,-118.344274,census_gazetteer_2024
+Ione,city,38.362862,-120.947685,census_gazetteer_2024
+Irvine,city,33.678399,-117.771254,census_gazetteer_2024
+Irwindale,city,34.111855,-117.963614,census_gazetteer_2024
+Isleton,city,38.161252,-121.604958,census_gazetteer_2024
+Jackson,city,38.348489,-120.772822,census_gazetteer_2024
+Jurupa Valley,city,34.002591,-117.467612,census_gazetteer_2024
+Kerman,city,36.724911,-120.06258,census_gazetteer_2024
+King City,city,36.216283,-121.131962,census_gazetteer_2024
+Kingsburg,city,36.525193,-119.566403,census_gazetteer_2024
+La CaÃ±ada Flintridge,city,34.20969,-118.200139,census_gazetteer_2024
+La Habra,city,33.927927,-117.951554,census_gazetteer_2024
+La Habra Heights,city,33.958959,-117.948973,census_gazetteer_2024
+La Mesa,city,32.769495,-117.021923,census_gazetteer_2024
+La Mirada,city,33.902045,-118.008961,census_gazetteer_2024
+La Palma,city,33.850616,-118.039565,census_gazetteer_2024
+La Puente,city,34.032333,-117.95352,census_gazetteer_2024
+La Quinta,city,33.646083,-116.275297,census_gazetteer_2024
+La Verne,city,34.120521,-117.769928,census_gazetteer_2024
+Lafayette,city,37.891004,-122.119529,census_gazetteer_2024
+Laguna Beach,city,33.54337,-117.761801,census_gazetteer_2024
+Laguna Hills,city,33.591216,-117.697621,census_gazetteer_2024
+Laguna Niguel,city,33.528654,-117.701253,census_gazetteer_2024
+Laguna Woods,city,33.612058,-117.730319,census_gazetteer_2024
+Lake Elsinore,city,33.685956,-117.335404,census_gazetteer_2024
+Lake Forest,city,33.654946,-117.675848,census_gazetteer_2024
+Lakeport,city,39.038333,-122.922633,census_gazetteer_2024
+Lakewood,city,33.847135,-118.121894,census_gazetteer_2024
+Lancaster,city,34.693558,-118.175305,census_gazetteer_2024
+Larkspur,city,37.940544,-122.530229,census_gazetteer_2024
+Lathrop,city,37.808666,-121.317765,census_gazetteer_2024
+Lawndale,city,33.888435,-118.353143,census_gazetteer_2024
+Lemon Grove,city,32.733071,-117.034413,census_gazetteer_2024
+Lemoore,city,36.29528,-119.797268,census_gazetteer_2024
+Lincoln,city,38.874464,-121.292886,census_gazetteer_2024
+Lindsay,city,36.209096,-119.093259,census_gazetteer_2024
+Live Oak,city,39.278802,-121.662439,census_gazetteer_2024
+Livermore,city,37.686977,-121.759781,census_gazetteer_2024
+Livingston,city,37.387281,-120.724943,census_gazetteer_2024
+Lodi,city,38.12161,-121.290765,census_gazetteer_2024
+Loma Linda,city,34.043287,-117.246647,census_gazetteer_2024
+Lomita,city,33.793306,-118.317455,census_gazetteer_2024
+Lompoc,city,34.662689,-120.470837,census_gazetteer_2024
+Long Beach,city,33.780791,-118.16818,census_gazetteer_2024
+Loomis,city,38.809358,-121.195383,census_gazetteer_2024
+Los Alamitos,city,33.796911,-118.061244,census_gazetteer_2024
+Los Altos,city,37.368431,-122.09657,census_gazetteer_2024
+Los Altos Hills,city,37.366808,-122.13865,census_gazetteer_2024
+Los Angeles,city,34.019394,-118.410825,census_gazetteer_2024
+Los Banos,city,37.063184,-120.840304,census_gazetteer_2024
+Los Gatos,city,37.229944,-121.956874,census_gazetteer_2024
+Loyalton,city,39.676855,-120.244811,census_gazetteer_2024
+Lynwood,city,33.923959,-118.201655,census_gazetteer_2024
+Madera,city,36.965774,-120.08616,census_gazetteer_2024
+Malibu,city,34.02586,-118.759643,census_gazetteer_2024
+Mammoth Lakes,city,37.624435,-118.988432,census_gazetteer_2024
+Manhattan Beach,city,33.90087,-118.420715,census_gazetteer_2024
+Manteca,city,37.790498,-121.230626,census_gazetteer_2024
+Maricopa,city,35.050942,-119.406605,census_gazetteer_2024
+Marina,city,36.680256,-121.789368,census_gazetteer_2024
+Martinez,city,37.998116,-122.114419,census_gazetteer_2024
+Marysville,city,39.151535,-121.583374,census_gazetteer_2024
+Maywood,city,33.988548,-118.187707,census_gazetteer_2024
+McFarland,city,35.667286,-119.230722,census_gazetteer_2024
+Mendota,city,36.757595,-120.380474,census_gazetteer_2024
+Menifee,city,33.689858,-117.184383,census_gazetteer_2024
+Menlo Park,city,37.479731,-122.148055,census_gazetteer_2024
+Merced,city,37.305721,-120.477907,census_gazetteer_2024
+Mill Valley,city,37.908122,-122.542325,census_gazetteer_2024
+Millbrae,city,37.59897,-122.401991,census_gazetteer_2024
+Milpitas,city,37.433136,-121.890934,census_gazetteer_2024
+Mission Viejo,city,33.609335,-117.656471,census_gazetteer_2024
+Modesto,city,37.637533,-121.003049,census_gazetteer_2024
+Monrovia,city,34.163984,-117.984646,census_gazetteer_2024
+Montague,city,41.727088,-122.530511,census_gazetteer_2024
+Montclair,city,34.071493,-117.69808,census_gazetteer_2024
+Monte Sereno,city,37.24041,-121.988235,census_gazetteer_2024
+Montebello,city,34.015444,-118.111012,census_gazetteer_2024
+Monterey,city,36.601193,-121.88311,census_gazetteer_2024
+Monterey Park,city,34.04838,-118.133165,census_gazetteer_2024
+Moorpark,city,34.285942,-118.87704,census_gazetteer_2024
+Moraga,city,37.845693,-122.123217,census_gazetteer_2024
+Moreno Valley,city,33.923253,-117.205685,census_gazetteer_2024
+Morgan Hill,city,37.132495,-121.641891,census_gazetteer_2024
+Morro Bay,city,35.366773,-120.868289,census_gazetteer_2024
+Mount Shasta,city,41.32088,-122.315481,census_gazetteer_2024
+Mountain View,city,37.399686,-122.079269,census_gazetteer_2024
+Murrieta,city,33.573214,-117.191007,census_gazetteer_2024
+Napa,city,38.297872,-122.300741,census_gazetteer_2024
+National City,city,32.665862,-117.097361,census_gazetteer_2024
+Needles,city,34.813426,-114.626639,census_gazetteer_2024
+Nevada City,city,39.259608,-121.033326,census_gazetteer_2024
+Newark,city,37.504253,-122.03191,census_gazetteer_2024
+Newman,city,37.316128,-121.021424,census_gazetteer_2024
+Newport Beach,city,33.597332,-117.890352,census_gazetteer_2024
+Norco,city,33.925519,-117.551958,census_gazetteer_2024
+Norwalk,city,33.9076,-118.083453,census_gazetteer_2024
+Novato,city,38.085087,-122.548272,census_gazetteer_2024
+Oakdale,city,37.761666,-120.846434,census_gazetteer_2024
+Oakland,city,37.769846,-122.22569,census_gazetteer_2024
+Oakley,city,37.996149,-121.693624,census_gazetteer_2024
+Oceanside,city,33.224601,-117.306291,census_gazetteer_2024
+Ojai,city,34.449199,-119.246664,census_gazetteer_2024
+Ontario,city,34.037648,-117.604433,census_gazetteer_2024
+Orange,city,33.786971,-117.861265,census_gazetteer_2024
+Orange Cove,city,36.621371,-119.318737,census_gazetteer_2024
+Orinda,city,37.88161,-122.168595,census_gazetteer_2024
+Orland,city,39.746146,-122.185731,census_gazetteer_2024
+Oroville,city,39.495423,-121.560069,census_gazetteer_2024
+Oxnard,city,34.199436,-119.207515,census_gazetteer_2024
+Pacific Grove,city,36.622577,-121.92643,census_gazetteer_2024
+Pacifica,city,37.606598,-122.47723,census_gazetteer_2024
+Palm Desert,city,33.737635,-116.364145,census_gazetteer_2024
+Palm Springs,city,33.803361,-116.53828,census_gazetteer_2024
+Palmdale,city,34.591038,-118.105403,census_gazetteer_2024
+Palo Alto,city,37.39652,-122.143088,census_gazetteer_2024
+Palos Verdes Estates,city,33.774271,-118.425754,census_gazetteer_2024
+Paradise,city,39.754192,-121.6064,census_gazetteer_2024
+Paramount,city,33.898883,-118.166629,census_gazetteer_2024
+Parlier,city,36.608899,-119.543656,census_gazetteer_2024
+Pasadena,city,34.160602,-118.137954,census_gazetteer_2024
+Patterson,city,37.475876,-121.153882,census_gazetteer_2024
+Perris,city,33.789849,-117.222171,census_gazetteer_2024
+Petaluma,city,38.242251,-122.628769,census_gazetteer_2024
+Pico Rivera,city,33.989524,-118.089295,census_gazetteer_2024
+Piedmont,city,37.822545,-122.230024,census_gazetteer_2024
+Pinole,city,38.001702,-122.318488,census_gazetteer_2024
+Pismo Beach,city,35.153173,-120.673874,census_gazetteer_2024
+Pittsburg,city,38.016771,-121.896948,census_gazetteer_2024
+Placentia,city,33.881158,-117.854783,census_gazetteer_2024
+Placerville,city,38.731116,-120.797677,census_gazetteer_2024
+Pleasant Hill,city,37.954163,-122.075772,census_gazetteer_2024
+Pleasanton,city,37.667185,-121.88123,census_gazetteer_2024
+Plymouth,city,38.471741,-120.857194,census_gazetteer_2024
+Point Arena,city,38.912306,-123.695609,census_gazetteer_2024
+Pomona,city,34.058494,-117.761091,census_gazetteer_2024
+Port Hueneme,city,34.162143,-119.204177,census_gazetteer_2024
+Porterville,city,36.063542,-119.0336,census_gazetteer_2024
+Portola,city,39.820799,-120.474293,census_gazetteer_2024
+Portola Valley,city,37.365191,-122.232724,census_gazetteer_2024
+Poway,city,32.987677,-117.021814,census_gazetteer_2024
+Rancho Cordova,city,38.577079,-121.236187,census_gazetteer_2024
+Rancho Cucamonga,city,34.130306,-117.566067,census_gazetteer_2024
+Rancho Mirage,city,33.763838,-116.430388,census_gazetteer_2024
+Rancho Palos Verdes,city,33.738517,-118.369685,census_gazetteer_2024
+Rancho Santa Margarita,city,33.632332,-117.599008,census_gazetteer_2024
+Red Bluff,city,40.173515,-122.241525,census_gazetteer_2024
+Redding,city,40.570277,-122.366766,census_gazetteer_2024
+Redlands,city,34.053506,-117.170476,census_gazetteer_2024
+Redondo Beach,city,33.849538,-118.400755,census_gazetteer_2024
+Redwood City,city,37.515274,-122.213672,census_gazetteer_2024
+Reedley,city,36.599374,-119.447781,census_gazetteer_2024
+Rialto,city,34.117419,-117.389215,census_gazetteer_2024
+Richmond,city,37.952278,-122.360609,census_gazetteer_2024
+Ridgecrest,city,35.628542,-117.663992,census_gazetteer_2024
+Rio Dell,city,40.49557,-124.115163,census_gazetteer_2024
+Rio Vista,city,38.176672,-121.703406,census_gazetteer_2024
+Ripon,city,37.742007,-121.130373,census_gazetteer_2024
+Riverbank,city,37.726022,-120.94484,census_gazetteer_2024
+Riverside,city,33.938143,-117.393168,census_gazetteer_2024
+Rocklin,city,38.806868,-121.249696,census_gazetteer_2024
+Rohnert Park,city,38.347617,-122.700896,census_gazetteer_2024
+Rolling Hills,city,33.760016,-118.347168,census_gazetteer_2024
+Rolling Hills Estates,city,33.778442,-118.327432,census_gazetteer_2024
+Rosemead,city,34.06888,-118.08268,census_gazetteer_2024
+Roseville,city,38.770296,-121.319634,census_gazetteer_2024
+Ross,city,37.963821,-122.561614,census_gazetteer_2024
+Sacramento,city,38.567694,-121.468161,census_gazetteer_2024
+Salinas,city,36.690217,-121.633793,census_gazetteer_2024
+San Anselmo,city,37.982117,-122.569921,census_gazetteer_2024
+San Bernardino,city,34.14114,-117.294635,census_gazetteer_2024
+San Bruno,city,37.62556,-122.431397,census_gazetteer_2024
+San Buenaventura (Ventura),city,34.26778,-119.254206,census_gazetteer_2024
+San Carlos,city,37.499034,-122.267572,census_gazetteer_2024
+San Clemente,city,33.449143,-117.61312,census_gazetteer_2024
+San Diego,city,32.814977,-117.135562,census_gazetteer_2024
+San Dimas,city,34.107957,-117.808529,census_gazetteer_2024
+San Fernando,city,34.288652,-118.436243,census_gazetteer_2024
+San Francisco,city,37.727239,-123.032229,census_gazetteer_2024
+San Gabriel,city,34.094636,-118.098469,census_gazetteer_2024
+San Jacinto,city,33.798864,-116.995914,census_gazetteer_2024
+San Joaquin,city,36.60559,-120.189766,census_gazetteer_2024
+San Jose,city,37.296011,-121.814552,census_gazetteer_2024
+San Juan Bautista,city,36.845132,-121.536949,census_gazetteer_2024
+San Juan Capistrano,city,33.500889,-117.654388,census_gazetteer_2024
+San Leandro,city,37.703368,-122.163036,census_gazetteer_2024
+San Luis Obispo,city,35.266195,-120.668438,census_gazetteer_2024
+San Marcos,city,33.132567,-117.169892,census_gazetteer_2024
+San Marino,city,34.122671,-118.112911,census_gazetteer_2024
+San Mateo,city,37.56031,-122.3106,census_gazetteer_2024
+San Pablo,city,37.962861,-122.342581,census_gazetteer_2024
+San Rafael,city,37.981003,-122.50693,census_gazetteer_2024
+San Ramon,city,37.765258,-121.931987,census_gazetteer_2024
+Sand City,city,36.62177,-121.847668,census_gazetteer_2024
+Sanger,city,36.701219,-119.557396,census_gazetteer_2024
+Santa Ana,city,33.736332,-117.8829,census_gazetteer_2024
+Santa Barbara,city,34.403592,-119.713714,census_gazetteer_2024
+Santa Clara,city,37.364621,-121.967973,census_gazetteer_2024
+Santa Clarita,city,34.416504,-118.500693,census_gazetteer_2024
+Santa Cruz,city,36.974385,-122.035268,census_gazetteer_2024
+Santa Fe Springs,city,33.933565,-118.062611,census_gazetteer_2024
+Santa Maria,city,34.933076,-120.443559,census_gazetteer_2024
+Santa Monica,city,34.010911,-118.498245,census_gazetteer_2024
+Santa Paula,city,34.354941,-119.066271,census_gazetteer_2024
+Santa Rosa,city,38.445824,-122.706181,census_gazetteer_2024
+Santee,city,32.85499,-116.986056,census_gazetteer_2024
+Saratoga,city,37.268326,-122.02622,census_gazetteer_2024
+Sausalito,city,37.858369,-122.491844,census_gazetteer_2024
+Scotts Valley,city,37.055499,-122.011769,census_gazetteer_2024
+Seal Beach,city,33.754399,-118.07132,census_gazetteer_2024
+Seaside,city,36.625058,-121.817804,census_gazetteer_2024
+Sebastopol,city,38.400003,-122.827586,census_gazetteer_2024
+Selma,city,36.571768,-119.613952,census_gazetteer_2024
+Shafter,city,35.479421,-119.201285,census_gazetteer_2024
+Shasta Lake,city,40.676564,-122.380909,census_gazetteer_2024
+Sierra Madre,city,34.168771,-118.050216,census_gazetteer_2024
+Signal Hill,city,33.803461,-118.169735,census_gazetteer_2024
+Simi Valley,city,34.266887,-118.748458,census_gazetteer_2024
+Solana Beach,city,32.9913,-117.258062,census_gazetteer_2024
+Soledad,city,36.434522,-121.317759,census_gazetteer_2024
+Solvang,city,34.593758,-120.13968,census_gazetteer_2024
+Sonoma,city,38.290331,-122.459831,census_gazetteer_2024
+Sonora,city,37.981707,-120.382755,census_gazetteer_2024
+South El Monte,city,34.050377,-118.048384,census_gazetteer_2024
+South Gate,city,33.944159,-118.192761,census_gazetteer_2024
+South Lake Tahoe,city,38.928218,-119.981,census_gazetteer_2024
+South Pasadena,city,34.108957,-118.156615,census_gazetteer_2024
+South San Francisco,city,37.655104,-122.376234,census_gazetteer_2024
+St. Helena,city,38.512806,-122.468076,census_gazetteer_2024
+Stanton,city,33.800233,-117.993449,census_gazetteer_2024
+Stockton,city,37.976553,-121.308598,census_gazetteer_2024
+Suisun City,city,38.248334,-122.010066,census_gazetteer_2024
+Sunnyvale,city,37.385797,-122.026316,census_gazetteer_2024
+Susanville,city,40.433674,-120.628306,census_gazetteer_2024
+Sutter Creek,city,38.392445,-120.798969,census_gazetteer_2024
+Taft,city,35.126696,-119.424194,census_gazetteer_2024
+Tehachapi,city,35.142959,-118.446036,census_gazetteer_2024
+Tehama,city,40.021776,-122.126901,census_gazetteer_2024
+Temecula,city,33.493073,-117.131734,census_gazetteer_2024
+Temple City,city,34.102156,-118.057971,census_gazetteer_2024
+Thousand Oaks,city,34.19329,-118.874235,census_gazetteer_2024
+Tiburon,city,37.886768,-122.462619,census_gazetteer_2024
+Torrance,city,33.830453,-118.356618,census_gazetteer_2024
+Tracy,city,37.727396,-121.452195,census_gazetteer_2024
+Trinidad,city,41.057708,-124.143255,census_gazetteer_2024
+Truckee,city,39.350548,-120.193943,census_gazetteer_2024
+Tulare,city,36.200246,-119.339775,census_gazetteer_2024
+Tulelake,city,41.95346,-121.474897,census_gazetteer_2024
+Turlock,city,37.505524,-120.859269,census_gazetteer_2024
+Tustin,city,33.73092,-117.810599,census_gazetteer_2024
+Twentynine Palms,city,34.147817,-116.065959,census_gazetteer_2024
+Ukiah,city,39.147519,-123.204903,census_gazetteer_2024
+Union City,city,37.602759,-122.01884,census_gazetteer_2024
+Upland,city,34.116073,-117.659922,census_gazetteer_2024
+Vacaville,city,38.358621,-121.968601,census_gazetteer_2024
+Vallejo,city,38.106909,-122.262339,census_gazetteer_2024
+Vernon,city,34.001123,-118.210869,census_gazetteer_2024
+Victorville,city,34.527735,-117.353579,census_gazetteer_2024
+Villa Park,city,33.817985,-117.811293,census_gazetteer_2024
+Visalia,city,36.32803,-119.328519,census_gazetteer_2024
+Vista,city,33.189528,-117.238582,census_gazetteer_2024
+Walnut,city,34.037195,-117.855606,census_gazetteer_2024
+Walnut Creek,city,37.902666,-122.040479,census_gazetteer_2024
+Wasco,city,35.593785,-119.367101,census_gazetteer_2024
+Waterford,city,37.642685,-120.754152,census_gazetteer_2024
+Watsonville,city,36.923587,-121.772395,census_gazetteer_2024
+Weed,city,41.412087,-122.380966,census_gazetteer_2024
+West Covina,city,34.055941,-117.909937,census_gazetteer_2024
+West Hollywood,city,34.088268,-118.371831,census_gazetteer_2024
+West Sacramento,city,38.554368,-121.548663,census_gazetteer_2024
+Westlake Village,city,34.136675,-118.817367,census_gazetteer_2024
+Westminster,city,33.752292,-117.993868,census_gazetteer_2024
+Westmorland,city,33.038996,-115.622441,census_gazetteer_2024
+Wheatland,city,39.031163,-121.389996,census_gazetteer_2024
+Whittier,city,33.966827,-118.020122,census_gazetteer_2024
+Wildomar,city,33.617278,-117.258312,census_gazetteer_2024
+Williams,city,39.14978,-122.138968,census_gazetteer_2024
+Willits,city,39.405006,-123.348889,census_gazetteer_2024
+Willows,city,39.514752,-122.199178,census_gazetteer_2024
+Windsor,city,38.542099,-122.808613,census_gazetteer_2024
+Winters,city,38.533271,-121.975473,census_gazetteer_2024
+Woodlake,city,36.412828,-119.100718,census_gazetteer_2024
+Woodland,city,38.67116,-121.750043,census_gazetteer_2024
+Woodside,city,37.42215,-122.258593,census_gazetteer_2024
+Yorba Linda,city,33.889038,-117.77207,census_gazetteer_2024
+Yountville,city,38.393512,-122.365536,census_gazetteer_2024
+Yreka,city,41.724032,-122.63157,census_gazetteer_2024
+Yuba City,city,39.129842,-121.641549,census_gazetteer_2024
+Yucaipa,city,34.033582,-117.042898,census_gazetteer_2024
+Yucca Valley,city,34.123347,-116.421557,census_gazetteer_2024
+Alameda County,county,37.65,-121.88,county_centroid
+Alpine County,county,38.6,-119.82,county_centroid
+Amador County,county,38.45,-120.65,county_centroid
+Butte County,county,39.67,-121.6,county_centroid
+Calaveras County,county,38.2,-120.55,county_centroid
+Colusa County,county,39.18,-122.24,county_centroid
+Contra Costa County,county,37.92,-121.93,county_centroid
+Del Norte County,county,41.74,-123.9,county_centroid
+El Dorado County,county,38.78,-120.52,county_centroid
+Fresno County,county,36.98,-119.65,county_centroid
+Glenn County,county,39.6,-122.39,county_centroid
+Humboldt County,county,40.7,-123.87,county_centroid
+Imperial County,county,33.04,-115.36,county_centroid
+Inyo County,county,36.51,-117.41,county_centroid
+Kern County,county,35.34,-118.73,county_centroid
+Kings County,county,36.08,-119.82,county_centroid
+Lake County,county,39.1,-122.75,county_centroid
+Lassen County,county,40.67,-120.59,county_centroid
+Los Angeles County,county,34.32,-118.22,county_centroid
+Madera County,county,37.22,-119.76,county_centroid
+Marin County,county,38.07,-122.74,county_centroid
+Mariposa County,county,37.57,-119.9,county_centroid
+Mendocino County,county,39.44,-123.39,county_centroid
+Merced County,county,37.19,-120.72,county_centroid
+Modoc County,county,41.59,-120.72,county_centroid
+Mono County,county,37.94,-118.89,county_centroid
+Monterey County,county,36.24,-121.31,county_centroid
+Napa County,county,38.51,-122.33,county_centroid
+Nevada County,county,39.3,-120.77,county_centroid
+Orange County,county,33.7,-117.76,county_centroid
+Placer County,county,39.06,-120.72,county_centroid
+Plumas County,county,40.0,-120.84,county_centroid
+Riverside County,county,33.74,-116.0,county_centroid
+Sacramento County,county,38.45,-121.34,county_centroid
+San Benito County,county,36.61,-121.08,county_centroid
+San Bernardino County,county,34.84,-116.18,county_centroid
+San Diego County,county,33.03,-116.74,county_centroid
+San Francisco County,county,37.76,-122.45,county_centroid
+San Joaquin County,county,37.93,-121.27,county_centroid
+San Luis Obispo County,county,35.39,-120.45,county_centroid
+San Mateo County,county,37.43,-122.33,county_centroid
+Santa Barbara County,county,34.72,-120.02,county_centroid
+Santa Clara County,county,37.23,-121.7,county_centroid
+Santa Cruz County,county,37.03,-122.01,county_centroid
+Shasta County,county,40.76,-122.04,county_centroid
+Sierra County,county,39.58,-120.52,county_centroid
+Siskiyou County,county,41.59,-122.54,county_centroid
+Solano County,county,38.27,-121.94,county_centroid
+Sonoma County,county,38.53,-122.89,county_centroid
+Stanislaus County,county,37.56,-120.99,county_centroid
+Sutter County,county,39.03,-121.69,county_centroid
+Tehama County,county,40.13,-122.24,county_centroid
+Trinity County,county,40.65,-123.11,county_centroid
+Tulare County,county,36.22,-118.8,county_centroid
+Tuolumne County,county,38.03,-119.95,county_centroid
+Ventura County,county,34.44,-119.08,county_centroid
+Yolo County,county,38.69,-121.9,county_centroid
+Yuba County,county,39.27,-121.35,county_centroid
