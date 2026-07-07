@@ -210,8 +210,8 @@ function renderCompliance() {
 function renderAll(){ renderStats(); renderLaws(); renderEvents(); renderChanges(); }
 
 Promise.allSettled([
-  fetch('ordinances.json').then(r => r.json()),
-  fetch('data.json').then(r => r.json()),
+  fetch('ordinances.json?t=' + Date.now()).then(r => r.json()),
+  fetch('data.json?t=' + Date.now()).then(r => r.json()),
 ]).then(([laws, events]) => {
   if (laws.status === 'fulfilled') LAWS = laws.value;
   if (events.status === 'fulfilled') EVENTS = events.value;
