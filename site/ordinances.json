@@ -422,7 +422,7 @@
    "type": "city",
    "county": "San Bernardino",
    "lat": 33.99,
-   "lon": -117.75,
+   "lon": -117.76,
    "status": "enacted",
    "laws": [
     {
@@ -2728,7 +2728,7 @@
     {
      "category": "Keyword match: camping (unreviewed)",
      "cite": "10.40.010",
-     "summary": "10.40.010 - Camping on public property. \u2014 It is unlawful to camp upon any public property owned by the city, including, without limitation, streets and parks.",
+     "summary": "10.40.010 - Camping on public property. \u2014 It is unlawful to camp upon any public property owned by the city, including streets and parks.",
      "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA_10.40.010CAPUPR"
     },
     {
@@ -2736,12 +2736,6 @@
      "cite": "10.40.020",
      "summary": "10.40.020 - Camping on private property. \u2014 Shall not apply to persons camping upon their own land or with written consent of the owner.",
      "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA_10.40.020CAPRPR"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "10.40",
-     "summary": "Chapter 10.40 - UNLAWFUL CAMPING \u2014 Title amended by Ord. 2376 and Ord. No. 2598, adopted January 15, 2019.",
-     "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA"
     }
    ]
   },
@@ -2762,14 +2756,8 @@
     {
      "category": "Keyword match: storage of personal property (unreviewed)",
      "cite": "10.60.030",
-     "summary": "10.60.030 - Storage of personal property on public and private property. \u2014 Unlawful for any person to store personal property, including camp paraphernalia, in specified areas except by resolution of the city council.",
+     "summary": "10.60.030 - Storage of personal property on public and private property. \u2014 Unlawful to store personal property, including camp paraphernalia, except by resolution of the city council.",
      "url": "https://library.municode.com/ca/grass_valley/codes/code_of_ordinances?nodeId=TIT10VETR_CH10.60USAUCATRHUHAPUPR_10.60.030STPEPRPUPRPR"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "12.32.050",
-     "summary": "12.32.050 - Conduct in parks and recreational areas. \u2014 Prohibits camp, occupy a camp facility, or use camp paraphernalia in parks.",
-     "url": "https://library.municode.com/ca/grass_valley/codes/code_of_ordinances?nodeId=TIT12STSIPUPL_CH12.32PAREARRE_12.32.050COPAREAR"
     }
    ]
   },
@@ -2784,7 +2772,7 @@
     {
      "category": "Keyword match: camping (unreviewed)",
      "cite": "14-20",
-     "summary": "14-20 - Unlawful Camping. \u2014 Unlawful camping on public property; camping activities constitute a public health and safety hazard. Adds Section 14-20 to prohibit unlawful camping on public property.",
+     "summary": "14-20 - Unlawful Camping. \u2014 Unlawful camping on public property; camping activities constitute a public health and safety hazard.",
      "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHXIVPORE_14-20UNCA"
     },
     {
@@ -2792,12 +2780,6 @@
      "cite": "7-11",
      "summary": "7-11 - Protection of Critical Infrastructure and Wildfire Risk Areas. \u2014 Unlawful and a public nuisance to camp, occupy camp facilities, or use camp paraphernalia at listed locations.",
      "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHVIIHE_7-11PRCRINWIRIAR"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "7-12",
-     "summary": "7-12 - Creeks Tributaries and Riparian Areas. \u2014 Prohibits camping, occupying camp facilities, or using camp paraphernalia in creeks and riparian areas.",
-     "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHVIIHE_7-12CRTRRIAR"
     }
    ]
   },
@@ -2814,12 +2796,6 @@
      "cite": "9.14.045",
      "summary": "9.14.045 - Camping prohibited without approval. \u2014 Applies whether or not person is camping or lodging within or without any automobile, van, motor home, trailer coach, or tent.",
      "url": "https://library.municode.com/ca/nevada_city/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.14COPUPR_9.14.045CAPRWIAP"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "12.12.030",
-     "summary": "12.12.030 - Prohibitions of use. \u2014 Camping without approval is prohibited by section 9.14.045 in public parks, trails and other city properties.",
-     "url": "https://library.municode.com/ca/nevada_city/codes/code_of_ordinances?nodeId=TIT12STSIPUPL_CH12.12PUPATROTPR_12.12.030PRUS"
     }
    ]
   },
@@ -2834,19 +2810,13 @@
     {
      "category": "Keyword match: camping (unreviewed)",
      "cite": "19.50.030",
-     "summary": "19.50.030 - Prohibited camping on certain public property. \u2014 City may by resolution or administrative order absolutely prohibit camping, or adopt time/place/manner conditions on camping on public properties.",
+     "summary": "19.50.030 - Prohibited camping on certain public property. \u2014 City may by resolution prohibit camping or adopt time/place/manner conditions on public properties. New Ch. 19.50 adopted May 2024.",
      "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT19PUPAPROPSP_CH19.50CAPUPR_19.50.030PRCACEPUPR"
     },
     {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "19.50",
-     "summary": "Chapter 19.50 - CAMPING ON PUBLIC PROPERTY \u2014 Ord. No. 2035 adopted May 6, 2024 repealed former Ch. 19.50 and enacted new camping-on-public-property chapter.",
-     "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT19PUPAPROPSP_CH19.50CAPUPR"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
+     "category": "Keyword match: recreational vehicle (unreviewed)",
      "cite": "5.60.054",
-     "summary": "5.60.054 - Camping in city parking garages. \u2014 Camping regulated within City of San Rafael parking garages; see SRMC chapter 19.50. (Ord. No. 2030, 7-17-2023).",
+     "summary": "5.60.054 - Camping in city parking garages. \u2014 Camping regulated within City of San Rafael parking garages (Ord. No. 2030, 7-17-2023).",
      "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT5TRRE_CH5.60PARE_5.60.054CAPAGA"
     }
    ]
@@ -2862,14 +2832,8 @@
     {
      "category": "Keyword match: camping (unreviewed)",
      "cite": "9.14.030",
-     "summary": "9.14.030 - Camping Prohibited. \u2014 Unlawful for any person to sleep, camp, occupy camp facilities, or use camp paraphernalia on any public road or public property when an alternative is available.",
+     "summary": "9.14.030 - Camping Prohibited. \u2014 Unlawful to sleep, camp, occupy camp facilities, or use camp paraphernalia on any public road or public property when an alternative is available.",
      "url": "https://library.municode.com/ca/truckee/codes/municipal_code?nodeId=TIT9SACO_CH9.14CA_9.14.030CAPR"
-    },
-    {
-     "category": "Keyword match: camping (unreviewed)",
-     "cite": "9.14",
-     "summary": "CHAPTER 9.14 - CAMPING \u2014 Dedicated camping chapter in Title 9 Safety & Conduct.",
-     "url": "https://library.municode.com/ca/truckee/codes/municipal_code?nodeId=TIT9SACO_CH9.14CA"
     }
    ]
   },
@@ -2886,6 +2850,290 @@
      "cite": "12.25.030",
      "summary": "12.25.030 - Park Regulations. \u2014 Camping shall be prohibited in Paradise Community Park.",
      "url": "https://library.municode.com/ca/paradise/codes/code_of_ordinances?nodeId=TIT12STPUPL_CH12.25PACOPA_12.25.030PARE"
+    }
+   ]
+  },
+  {
+   "name": "Arroyo Grande",
+   "type": "city",
+   "county": "",
+   "lat": 35.12,
+   "lon": -120.59,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.22.020",
+     "summary": "9.22.020 - Prohibition. \u2014 Unlawful to camp overnight or occupy any recreational vehicle overnight (Chapter 9.22 Camping).",
+     "url": "https://library.municode.com/ca/arroyo_grande/codes/code_of_ordinances?nodeId=COOR_TIT9PUPEWE_CH9.22CA_9.22.020PR"
+    }
+   ]
+  },
+  {
+   "name": "Azusa",
+   "type": "city",
+   "county": "",
+   "lat": 34.13,
+   "lon": -117.91,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "62-503",
+     "summary": "Sec. 62-503 - Camping on public property. \u2014 Unlawful to camp, occupy camp facilities or use camp paraphernalia on any public property within the city.",
+     "url": "https://library.municode.com/ca/azusa/codes/code_of_ordinances?nodeId=MUCO_CH62STSIOTPUPL_ARTXIRESMCASTPEPRUPPUFAPUPAPUPRCI_S62-503CAPUPR"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "62-504",
+     "summary": "Sec. 62-504 - Storage of personal property on public property. \u2014 Unlawful to store personal property, including camp facilities and camp paraphernalia, on any public property.",
+     "url": "https://library.municode.com/ca/azusa/codes/code_of_ordinances?nodeId=MUCO_CH62STSIOTPUPL_ARTXIRESMCASTPEPRUPPUFAPUPAPUPRCI_S62-504STPEPRPUPR"
+    }
+   ]
+  },
+  {
+   "name": "Chino",
+   "type": "city",
+   "county": "",
+   "lat": 34.01,
+   "lon": -117.69,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "8.80.030",
+     "summary": "8.80.030 - Unlawful camping. \u2014 Unlawful and a public nuisance to camp, establish/maintain/occupy camp facilities, or use camp paraphernalia (Ch. 8.80 Camping).",
+     "url": "https://library.municode.com/ca/chino/codes/code_of_ordinances?nodeId=TIT8HESA_CH8.80CA_8.80.030UNCA"
+    },
+    {
+     "category": "Keyword match: recreational vehicle (unreviewed)",
+     "cite": "8.70.010",
+     "summary": "8.70.010 - RV parking prohibited. \u2014 Unlawful to park or maintain a recreational vehicle on any public or private non-residential parking (Ch. 8.70 RV Parking).",
+     "url": "https://library.municode.com/ca/chino/codes/code_of_ordinances?nodeId=TIT8HESA_CH8.70RVPA_8.70.010RVPAPR"
+    }
+   ]
+  },
+  {
+   "name": "Citrus Heights",
+   "type": "city",
+   "county": "",
+   "lat": 38.71,
+   "lon": -121.28,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "50-502",
+     "summary": "Sec. 50-502 - Unlawful camping. \u2014 Unlawful to camp, pitch or occupy camp facilities or use camp paraphernalia in the city, whether on public or private property (Ch. 50 Nuisances, Art. III Camping).",
+     "url": "https://library.municode.com/ca/citrus_heights/codes/code_of_ordinances?nodeId=COOR_CH50NU_ARTIIICA_S50-502UNCA"
+    },
+    {
+     "category": "Keyword match: recreational vehicle (unreviewed)",
+     "cite": "50-503",
+     "summary": "Sec. 50-503 - Camping on public property. \u2014 Unlawful to sleep in any camping facility, vehicle, motorhome, recreational vehicle, or vehicle camping trailer parked on public property.",
+     "url": "https://library.municode.com/ca/citrus_heights/codes/code_of_ordinances?nodeId=COOR_CH50NU_ARTIIICA_S50-503CAPUPR"
+    }
+   ]
+  },
+  {
+   "name": "El Centro",
+   "type": "city",
+   "county": "",
+   "lat": 32.79,
+   "lon": -115.56,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "18-147",
+     "summary": "Sec. 18-147 - Unlawful camping. \u2014 Unlawful to camp, occupy camp facilities or use camp paraphernalia in listed areas (Ch. 18 Art. VIII Camping and Storage of Personal Property).",
+     "url": "https://library.municode.com/ca/el_centro/codes/code_of_ordinances?nodeId=CH18OFMIPR_ARTVIIICASTPEPRPUPL_S18-147UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "18-148",
+     "summary": "Sec. 18-148 - Storage of personal property in public places. \u2014 Unlawful to store personal property, including camp facilities and camp paraphernalia, except as provided by resolution.",
+     "url": "https://library.municode.com/ca/el_centro/codes/code_of_ordinances?nodeId=CH18OFMIPR_ARTVIIICASTPEPRPUPL_S18-148STPEPRPUPL"
+    }
+   ]
+  },
+  {
+   "name": "El Monte",
+   "type": "city",
+   "county": "",
+   "lat": 34.07,
+   "lon": -118.03,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.48.020",
+     "summary": "9.48.020 - Unlawful camping. \u2014 Unlawful to camp, occupy camp facilities or use camp paraphernalia in listed areas (Ch. 9.48 Camping).",
+     "url": "https://library.municode.com/ca/el_monte/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.48CA_9.48.020UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "9.48.030",
+     "summary": "9.48.030 - Storage of personal property in public places. \u2014 Unlawful to store personal property, including camp facilities and camp paraphernalia, except as provided by the city.",
+     "url": "https://library.municode.com/ca/el_monte/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.48CA_9.48.030STPEPRPUPL"
+    }
+   ]
+  },
+  {
+   "name": "Lancaster",
+   "type": "city",
+   "county": "",
+   "lat": 34.69,
+   "lon": -118.15,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "12.28.030",
+     "summary": "12.28.030 - Prohibited activities. \u2014 Unlawful and a public nuisance to camp at listed locations (Ch. 12.28 Protection of Critical Infrastructure and Wildfire Risk Areas).",
+     "url": "https://library.municode.com/ca/lancaster/codes/code_of_ordinances?nodeId=TIT12STSIPUPL_CH12.28PRCRINWIRIAR_12.28.030PRAC"
+    }
+   ]
+  },
+  {
+   "name": "Merced",
+   "type": "city",
+   "county": "",
+   "lat": 37.3,
+   "lon": -120.48,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.51.030",
+     "summary": "9.51.030 - Unlawful camping. \u2014 Unlawful and a misdemeanor to camp, occupy camp facilities, or use camp paraphernalia in listed areas (Ch. 9.51 Camping and Storage of Personal Property).",
+     "url": "https://library.municode.com/ca/merced/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.51CASTPEPR_9.51.030UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "9.51.040",
+     "summary": "9.51.040 - Storage of personal property in public spaces. \u2014 Unlawful and a misdemeanor to store personal property, including camp paraphernalia, in listed areas.",
+     "url": "https://library.municode.com/ca/merced/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.51CASTPEPR_9.51.040STPEPRPUSP"
+    }
+   ]
+  },
+  {
+   "name": "Pomona",
+   "type": "city",
+   "county": "",
+   "lat": 34.06,
+   "lon": -117.75,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "46-603",
+     "summary": "Sec. 46-603 - Unlawful camping. \u2014 Unlawful to camp or use camp paraphernalia in or on any public park, street, sidewalk or other public property (Art. XII Camping, Sleeping or Storage of Property).",
+     "url": "https://library.municode.com/ca/pomona/codes/city_code?nodeId=SPAGEOR_CH46STSIOTPUPL_ARTXIICASLSTPR_S46-603UNCA"
+    },
+    {
+     "category": "Keyword match: recreational vehicle (unreviewed)",
+     "cite": "58-304",
+     "summary": "Sec. 58-304 - Large-vehicle parking-exception permits. \u2014 Large vehicle parked on public street shall not be used for overnight camping, lodging, sleeping, cooking, or any residential use.",
+     "url": "https://library.municode.com/ca/pomona/codes/city_code?nodeId=SPAGEOR_CH58TRVE_ARTVVESIWELO_DIV2TRRO_S58-304LAHIPACEPE"
+    }
+   ]
+  },
+  {
+   "name": "Richmond",
+   "type": "city",
+   "county": "",
+   "lat": 37.94,
+   "lon": -122.35,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "11.96.030",
+     "summary": "11.96.030 - Unlawful camping. \u2014 Unlawful to camp, sleep in or occupy camp facilities or use camp paraphernalia in listed areas (Ch. 11.96 Local Camping).",
+     "url": "https://library.municode.com/ca/richmond/codes/code_of_ordinances?nodeId=ARTXIPUSAWE_CH11.96LOCA_11.96.030UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "11.96.040",
+     "summary": "11.96.040 - Storage of personal property in public places. \u2014 Unlawful to store personal property, including camp facilities and camp paraphernalia, in listed areas.",
+     "url": "https://library.municode.com/ca/richmond/codes/code_of_ordinances?nodeId=ARTXIPUSAWE_CH11.96LOCA_11.96.040STPEPRPUPL"
+    }
+   ]
+  },
+  {
+   "name": "Santa Ana",
+   "type": "city",
+   "county": "",
+   "lat": 33.75,
+   "lon": -117.87,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "10-402",
+     "summary": "Sec. 10-402 - Unlawful camping. \u2014 Unlawful to camp, occupy camp facilities or use camp paraphernalia in listed areas (Ch. 10 Art. VIII Camping and Storage of Personal Property).",
+     "url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH10CRMILAENPR_ARTVIIICASTPEPR_S10-402UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "10-403",
+     "summary": "Sec. 10-403 - Storage of personal property in public places. \u2014 Unlawful to store personal property, including camp facilities and camp paraphernalia, except as provided by resolution.",
+     "url": "https://library.municode.com/ca/santa_ana/codes/code_of_ordinances?nodeId=PTIITHCO_CH10CRMILAENPR_ARTVIIICASTPEPR_S10-403STPEPRPUPL"
+    }
+   ]
+  },
+  {
+   "name": "Rocklin",
+   "type": "city",
+   "county": "",
+   "lat": 38.79,
+   "lon": -121.24,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.24.030",
+     "summary": "9.24.030 - Unlawful camping. \u2014 Camping restrictions on public and private property (Ch. 9.24 Camping on Public and Private Property).",
+     "url": "https://library.municode.com/ca/rocklin/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.24CAPUPRPR_9.24.030UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "9.24.060",
+     "summary": "9.24.060 - Storage of personal property. \u2014 Unlawful to store or leave unattended camp facilities or camp paraphernalia on public or private property.",
+     "url": "https://library.municode.com/ca/rocklin/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.24CAPUPRPR_9.24.060STPEPR"
+    }
+   ]
+  },
+  {
+   "name": "Morro Bay",
+   "type": "city",
+   "county": "",
+   "lat": 35.37,
+   "lon": -120.85,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: recreational vehicle (unreviewed)",
+     "cite": "8.24.010",
+     "summary": "8.24.010 - Camping prohibited at certain times and places. \u2014 Tent camping and all classes of recreational vehicle camping prohibited along Embarcadero Road and other areas (Ch. 8.24 Camping).",
+     "url": "https://library.municode.com/ca/morro_bay/codes/code_of_ordinances?nodeId=TIT8HESA_CH8.24CA_8.24.010PRCETICEPL"
+    }
+   ]
+  },
+  {
+   "name": "Hollister",
+   "type": "city",
+   "county": "",
+   "lat": 36.85,
+   "lon": -121.4,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.40.030",
+     "summary": "9.40.030 - Prohibited acts. \u2014 Unlawful and a public nuisance to camp, occupy camp facilities, or use camp paraphernalia in listed areas (Ch. 9.40 Unlawful Camping).",
+     "url": "https://library.municode.com/ca/hollister/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.40UNCA_9.40.030PRAC"
     }
    ]
   }
