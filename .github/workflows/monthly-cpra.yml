@@ -2,7 +2,7 @@ name: Monthly CPRA cycle
 on:
   schedule:
     - cron: "0 15 1 * *"   # 1st of each month, ~7am PT
-  workflow_dispatch: {}     # adds a manual "Run workflow" button
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -21,8 +21,6 @@ jobs:
         run: |
           python db.py
           python generate_requests.py
-          # Drafts only. To auto-email, add SMTP secrets in repo Settings ->
-          # Secrets, write config.ini from them in a prior step, and add --send
       - name: Check deadlines, generate escalation letters
         working-directory: pipeline
         run: python deadlines.py --letters
@@ -42,8 +40,11 @@ jobs:
         run: |
           git config user.name "sweep-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f outbox site/data.json site/ordinances.json \
-                     data/ordinance_snapshots data/ordinance_changes.csv \
-                     data/all_jurisdictions.csv data/berkeley_appendix 2>/dev/null || true
+          for p in outbox site/data.json site/ordinances.json \
+                   data/ordinance_snapshots data/ordinance_changes.csv \
+                   data/all_jurisdictions.csv data/ordinance_research.csv \
+                   data/research_progress.json data/berkeley_appendix; do
+            git add -f "$p" 2>/dev/null || true
+          done
           git commit -m "Monthly CPRA + ordinance-watch cycle $(date +%Y-%m)" || echo "nothing to commit"
           git push

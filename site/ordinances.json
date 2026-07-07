@@ -2716,6 +2716,178 @@
      "summary": "camping in vehicle prohibited. Adopted in 2014"
     }
    ]
+  },
+  {
+   "name": "Redding",
+   "type": "city",
+   "county": "",
+   "lat": 40.59,
+   "lon": -122.39,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "10.40.010",
+     "summary": "10.40.010 - Camping on public property. \u2014 It is unlawful to camp upon any public property owned by the city, including, without limitation, streets and parks.",
+     "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA_10.40.010CAPUPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "10.40.020",
+     "summary": "10.40.020 - Camping on private property. \u2014 Shall not apply to persons camping upon their own land or with written consent of the owner.",
+     "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA_10.40.020CAPRPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "10.40",
+     "summary": "Chapter 10.40 - UNLAWFUL CAMPING \u2014 Title amended by Ord. 2376 and Ord. No. 2598, adopted January 15, 2019.",
+     "url": "https://library.municode.com/ca/redding/codes/code_of_ordinances?nodeId=TIT10PUPEMOWE_VOFAGPR_CH10.40UNCA"
+    }
+   ]
+  },
+  {
+   "name": "Grass Valley",
+   "type": "city",
+   "county": "",
+   "lat": 39.22,
+   "lon": -121.06,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "10.60.020",
+     "summary": "10.60.020 - Unlawful camping. \u2014 Use of automobiles, campers and trailers for human habitation on public property; overnight camping restrictions.",
+     "url": "https://library.municode.com/ca/grass_valley/codes/code_of_ordinances?nodeId=TIT10VETR_CH10.60USAUCATRHUHAPUPR_10.60.020UNCA"
+    },
+    {
+     "category": "Keyword match: storage of personal property (unreviewed)",
+     "cite": "10.60.030",
+     "summary": "10.60.030 - Storage of personal property on public and private property. \u2014 Unlawful for any person to store personal property, including camp paraphernalia, in specified areas except by resolution of the city council.",
+     "url": "https://library.municode.com/ca/grass_valley/codes/code_of_ordinances?nodeId=TIT10VETR_CH10.60USAUCATRHUHAPUPR_10.60.030STPEPRPUPRPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "12.32.050",
+     "summary": "12.32.050 - Conduct in parks and recreational areas. \u2014 Prohibits camp, occupy a camp facility, or use camp paraphernalia in parks.",
+     "url": "https://library.municode.com/ca/grass_valley/codes/code_of_ordinances?nodeId=TIT12STSIPUPL_CH12.32PAREARRE_12.32.050COPAREAR"
+    }
+   ]
+  },
+  {
+   "name": "Novato",
+   "type": "city",
+   "county": "",
+   "lat": 38.11,
+   "lon": -122.57,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "14-20",
+     "summary": "14-20 - Unlawful Camping. \u2014 Unlawful camping on public property; camping activities constitute a public health and safety hazard. Adds Section 14-20 to prohibit unlawful camping on public property.",
+     "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHXIVPORE_14-20UNCA"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "7-11",
+     "summary": "7-11 - Protection of Critical Infrastructure and Wildfire Risk Areas. \u2014 Unlawful and a public nuisance to camp, occupy camp facilities, or use camp paraphernalia at listed locations.",
+     "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHVIIHE_7-11PRCRINWIRIAR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "7-12",
+     "summary": "7-12 - Creeks Tributaries and Riparian Areas. \u2014 Prohibits camping, occupying camp facilities, or using camp paraphernalia in creeks and riparian areas.",
+     "url": "https://library.municode.com/ca/novato/codes/code_of_ordinances?nodeId=CHVIIHE_7-12CRTRRIAR"
+    }
+   ]
+  },
+  {
+   "name": "Nevada City",
+   "type": "city",
+   "county": "",
+   "lat": 39.26,
+   "lon": -121.02,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.14.045",
+     "summary": "9.14.045 - Camping prohibited without approval. \u2014 Applies whether or not person is camping or lodging within or without any automobile, van, motor home, trailer coach, or tent.",
+     "url": "https://library.municode.com/ca/nevada_city/codes/code_of_ordinances?nodeId=TIT9PUPEMOWE_CH9.14COPUPR_9.14.045CAPRWIAP"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "12.12.030",
+     "summary": "12.12.030 - Prohibitions of use. \u2014 Camping without approval is prohibited by section 9.14.045 in public parks, trails and other city properties.",
+     "url": "https://library.municode.com/ca/nevada_city/codes/code_of_ordinances?nodeId=TIT12STSIPUPL_CH12.12PUPATROTPR_12.12.030PRUS"
+    }
+   ]
+  },
+  {
+   "name": "San Rafael",
+   "type": "city",
+   "county": "",
+   "lat": 37.97,
+   "lon": -122.53,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "19.50.030",
+     "summary": "19.50.030 - Prohibited camping on certain public property. \u2014 City may by resolution or administrative order absolutely prohibit camping, or adopt time/place/manner conditions on camping on public properties.",
+     "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT19PUPAPROPSP_CH19.50CAPUPR_19.50.030PRCACEPUPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "19.50",
+     "summary": "Chapter 19.50 - CAMPING ON PUBLIC PROPERTY \u2014 Ord. No. 2035 adopted May 6, 2024 repealed former Ch. 19.50 and enacted new camping-on-public-property chapter.",
+     "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT19PUPAPROPSP_CH19.50CAPUPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "5.60.054",
+     "summary": "5.60.054 - Camping in city parking garages. \u2014 Camping regulated within City of San Rafael parking garages; see SRMC chapter 19.50. (Ord. No. 2030, 7-17-2023).",
+     "url": "https://library.municode.com/ca/san_rafael/codes/code_of_ordinances?nodeId=TIT5TRRE_CH5.60PARE_5.60.054CAPAGA"
+    }
+   ]
+  },
+  {
+   "name": "Truckee",
+   "type": "city",
+   "county": "",
+   "lat": 39.33,
+   "lon": -120.18,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.14.030",
+     "summary": "9.14.030 - Camping Prohibited. \u2014 Unlawful for any person to sleep, camp, occupy camp facilities, or use camp paraphernalia on any public road or public property when an alternative is available.",
+     "url": "https://library.municode.com/ca/truckee/codes/municipal_code?nodeId=TIT9SACO_CH9.14CA_9.14.030CAPR"
+    },
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "9.14",
+     "summary": "CHAPTER 9.14 - CAMPING \u2014 Dedicated camping chapter in Title 9 Safety & Conduct.",
+     "url": "https://library.municode.com/ca/truckee/codes/municipal_code?nodeId=TIT9SACO_CH9.14CA"
+    }
+   ]
+  },
+  {
+   "name": "Paradise",
+   "type": "city",
+   "county": "",
+   "lat": 39.76,
+   "lon": -121.62,
+   "status": "auto_flagged",
+   "laws": [
+    {
+     "category": "Keyword match: camping (unreviewed)",
+     "cite": "12.25.030",
+     "summary": "12.25.030 - Park Regulations. \u2014 Camping shall be prohibited in Paradise Community Park.",
+     "url": "https://library.municode.com/ca/paradise/codes/code_of_ordinances?nodeId=TIT12STPUPL_CH12.25PACOPA_12.25.030PARE"
+    }
+   ]
   }
  ],
  "recent_changes": []

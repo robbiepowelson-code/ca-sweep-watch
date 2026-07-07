@@ -101,6 +101,40 @@ def main() -> None:
         print(f"note: {ALL_J.name} not found — run build_full_jurisdictions.py "
               "to add gray dots for every remaining CA jurisdiction")
 
+    # merge auto-research hits (find_ordinances.py -> ordinance_research.csv):
+    # attach to an existing dot, or create a new "auto_flagged" dot using
+    # coordinates from jurisdiction_coords.csv.
+    research = DATA / "ordinance_research.csv"
+    flagged = 0
+    if research.exists():
+        by_key = {(norm(d["name"]), d["type"]): d for d in dots}
+        with open(research, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                if row.get("source") != "municode" or not row.get("keyword"):
+                    continue
+                jtype = row["jurisdiction_type"]
+                key = (norm(row["jurisdiction"]), jtype)
+                dot = by_key.get(key)
+                if not dot:
+                    c = coords.get((row["jurisdiction"], jtype))
+                    if not c:
+                        continue  # no coordinates on file yet
+                    dot = {"name": c["display_name"], "type": jtype,
+                           "county": "", "lat": c["lat"], "lon": c["lon"],
+                           "status": "auto_flagged", "laws": []}
+                    dots.append(dot)
+                    by_key[key] = dot
+                    flagged += 1
+                dot["laws"].append({
+                    "category": f"Keyword match: {row['keyword']} (unreviewed)",
+                    "cite": row["code_section"],
+                    "summary": (row["title"] + " — " + row["snippet"])[:400],
+                    "url": row["url"],
+                })
+                if dot["status"] == "no_data":
+                    dot["status"] = "auto_flagged"
+                    flagged += 1
+
     changes = []
     changes_csv = DATA / "ordinance_changes.csv"
     if changes_csv.exists():
@@ -116,7 +150,8 @@ def main() -> None:
         "recent_changes": changes,
     }, indent=1), encoding="utf-8")
     print(f"wrote {out}: {len(dots)} dots "
-          f"({len(dots) - added_nodata} with law data, {added_nodata} no-data)")
+          f"({len(dots) - added_nodata - flagged} with reviewed law data, "
+          f"{flagged} auto-flagged, {added_nodata} no-data)")
     if missing:
         print(f"NO COORDS for {len(missing)}: {missing}")
 

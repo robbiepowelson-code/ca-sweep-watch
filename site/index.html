@@ -74,6 +74,7 @@
     <div class="legend">
       <div><span style="background:var(--enacted)"></span>Jurisdiction with enacted anti-camping law</div>
       <div><span style="background:var(--proposed)"></span>Proposed / pending law</div>
+      <div><span style="background:#d9a13c"></span>Keyword match found (unreviewed)</div>
       <div><span style="background:#5a6673"></span>No ordinance data collected yet</div>
       <div><span style="background:var(--sweep)"></span>Sweep / removal</div>
       <div><span style="background:var(--citation)"></span>Citation</div>
@@ -120,6 +121,7 @@ function renderLaws() {
       shown++;
       const noData = j.status === 'no_data';
       const color = noData ? '#5a6673' :
+                    j.status === 'auto_flagged' ? '#d9a13c' :
                     j.status === 'enacted' ? '#9d5de0' : '#3dbfb0';
       L.circleMarker([j.lat, j.lon], {
         radius: j.type === 'county' ? 9 : (noData ? 4 : 5),
@@ -135,6 +137,7 @@ function renderLaws() {
           : j.laws.map(l =>
               `<div class="law"><b>${esc(l.category)}</b>` +
               (l.cite ? ` — ${esc(l.cite)}` : '') +
+              (l.url ? ` <a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:#4d9de0">source</a>` : '') +
               `<br><small>${esc(l.summary)}</small></div>`).join('')),
         { maxWidth: 340 }
       ).addTo(lawLayer);
