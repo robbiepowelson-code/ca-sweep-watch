@@ -1,12 +1,12 @@
 name: Ordinance research (Municode scan)
 on:
   schedule:
-    - cron: "0 16 * * 1"   # Mondays ~8am PT
+    - cron: "0 16 * * 1"   # Mondays ~8am PT (incremental batches)
   workflow_dispatch:
     inputs:
       batch:
-        description: "jurisdictions to scan this run"
-        default: "80"
+        description: "how many jurisdictions to scan ('all' = entire state in one run)"
+        default: "all"
 
 permissions:
   contents: write
@@ -14,24 +14,29 @@ permissions:
 jobs:
   research:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install requests
+      - name: Build full CA jurisdiction list (all cities + counties)
+        working-directory: pipeline
+        run: python build_full_jurisdictions.py || echo "kept existing list"
       - name: Scan municipal codes for homelessness-enforcement keywords
         working-directory: pipeline
-        run: python find_ordinances.py --batch ${{ github.event.inputs.batch || 80 }}
-      - name: Rebuild ordinance map layer
+        run: python find_ordinances.py --batch "${{ github.event.inputs.batch || 'all' }}"
+      - name: Rebuild ordinance map layer (all cities as dots)
         working-directory: pipeline
         run: python build_ordinance_map.py
       - name: Commit results
         run: |
           git config user.name "sweep-watch-bot"
           git config user.email "actions@users.noreply.github.com"
-          for p in data/ordinance_research.csv data/research_progress.json site/ordinances.json; do
+          for p in data/all_jurisdictions.csv data/ordinance_research.csv \
+                   data/research_progress.json site/ordinances.json; do
             git add -f "$p" 2>/dev/null || true
           done
-          git commit -m "Ordinance research batch $(date +%Y-%m-%d)" || echo "nothing to commit"
+          git commit -m "Ordinance research scan $(date +%Y-%m-%d)" || echo "nothing to commit"
           git push

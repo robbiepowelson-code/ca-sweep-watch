@@ -58,7 +58,9 @@ def search(client_id, kw):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--batch", type=int, default=80)
+    ap.add_argument("--batch", default="80",
+                    help="number of jurisdictions to scan, or 'all' for the "
+                         "entire remaining list in one run")
     args = ap.parse_args()
 
     juris_file = DATA / "all_jurisdictions.csv"
@@ -69,7 +71,8 @@ def main():
     start = 0
     if PROGRESS.exists():
         start = json.loads(PROGRESS.read_text()).get("index", 0)
-    batch = juris[start:start + args.batch]
+    n = len(juris) if str(args.batch).lower() == "all" else int(args.batch)
+    batch = juris[start:start + n]
     if not batch:
         print("all jurisdictions processed; resetting for a fresh refresh pass")
         PROGRESS.write_text(json.dumps({"index": 0}))
